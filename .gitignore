@@ -1,0 +1,60 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore .git directory
+.git/
+
+# Ignore all .log files
+*.log
+
+# Ignore all .tmp files
+*.tmp
+
+# Ignore all .temp files
+*.temp
+
+# Ignore all .cache files and directories
+.cache
+*.cache
+
+# Ignore all .DS_Store files (macOS)
+.DS_Store
+
+# Ignore all .env files
+.env
+
+# Ignore build output directories
+/dist
+/build
+
+# Ignore IDE and editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore package-lock.json for npm
+package-lock.json
+
+# Ignore yarn.lock for Yarn
+yarn.lock
+
+# Ignore all markdown files
+*.md
+
+# Ignore all JSON files
+*.json
+
+# Ignore all backup files
+*.bak
+
+# Ignore all compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore all compiled Java classes
+*.class
+
+# Ignore all compiled C++ object files
+*.o
+*.obj
