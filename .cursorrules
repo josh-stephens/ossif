@@ -1,0 +1,53 @@
+{
+    "filePatterns": [
+        "**/*.md"
+    ],
+    "ignorePatterns": [
+        "**/node_modules/**",
+        "**/.git/**"
+    ],
+    "linkFormat": {
+        "type": "relative",
+        "spaceReplacement": " "
+    },
+    "wikiLinkFormat": {
+        "enable": true,
+        "prefix": "[[",
+        "suffix": "]]"
+    },
+    "frontMatter": {
+        "enable": true,
+        "format": "yaml"
+    },
+    "codeBlocks": {
+        "enable": true,
+        "languageDetection": true
+    },
+    "tags": {
+        "enable": true,
+        "prefix": "#"
+    },
+    "embeds": {
+        "enable": true,
+        "prefix": "![[",
+        "suffix": "]]"
+    },
+    "checkboxes": {
+        "enable": true,
+        "checked": "[x]",
+        "unchecked": "[ ]"
+    },
+    "tableOfContents": {
+        "enable": true,
+        "depth": 3
+    },
+    "mermaid": {
+        "enable": true
+    },
+    "mathJax": {
+        "enable": true,
+        "inlineMath": [["$", "$"]],
+        "displayMath": [["$$", "$$"]]
+    }
+}
+
