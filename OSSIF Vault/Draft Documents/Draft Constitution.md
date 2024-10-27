@@ -240,9 +240,3 @@ By signing below, the undersigned acknowledge their understanding and acceptance
 ---
 
 **Note:** This Draft Constitution is intended as a living document, subject to revision and enhancement through the collective efforts of OSSIF members. All changes must adhere to the procedures outlined herein and reflect the organization's commitment to transparency, accountability, and the continuous pursuit of ethical excellence.
-
----
-
-Please review this comprehensive Draft Constitution for the OSSIF project. It incorporates the key elements we've discussed, including detailed articles on purpose, membership, governance, rights and responsibilities, AI inclusion, and more. The document is designed to provide a solid foundation for your framework, promoting clarity, inclusivity, and adaptability.
-
-Let me know if you would like any further adjustments or additions!
