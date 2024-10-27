@@ -39,9 +39,6 @@ package-lock.json
 # Ignore yarn.lock for Yarn
 yarn.lock
 
-# Ignore all markdown files
-*.md
-
 # Ignore all JSON files
 *.json
 
