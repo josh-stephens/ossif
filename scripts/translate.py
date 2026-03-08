@@ -24,6 +24,8 @@ import os
 import re
 import subprocess
 import sys
+import threading
+from datetime import datetime, timezone
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -74,6 +76,57 @@ BACK_TRANSLATE_MODEL = "gemini-3-flash-preview"
 
 # Divergence threshold for back-translation (0-1, lower = stricter)
 DIVERGENCE_THRESHOLD = 0.3
+
+LOGS_DIR = REPO_ROOT / "scripts" / "logs"
+
+# --- Token Tracking ---
+
+_token_lock = threading.Lock()
+_token_log = {
+    "timestamp": "",
+    "model": MODEL,
+    "files": [],
+    "totals": {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0, "api_calls": 0},
+}
+
+
+def track_tokens(response, source_file, lang, pass_name):
+    """Extract and accumulate token usage from a Gemini response."""
+    usage = getattr(response, "usage_metadata", None)
+    if not usage:
+        return
+    prompt = getattr(usage, "prompt_token_count", 0) or 0
+    completion = getattr(usage, "candidates_token_count", 0) or 0
+    total = prompt + completion
+    with _token_lock:
+        _token_log["files"].append({
+            "file": source_file,
+            "lang": lang,
+            "pass": pass_name,
+            "prompt_tokens": prompt,
+            "completion_tokens": completion,
+            "total_tokens": total,
+        })
+        _token_log["totals"]["prompt_tokens"] += prompt
+        _token_log["totals"]["completion_tokens"] += completion
+        _token_log["totals"]["total_tokens"] += total
+        _token_log["totals"]["api_calls"] += 1
+
+
+def save_token_log():
+    """Write token usage log to scripts/logs/."""
+    LOGS_DIR.mkdir(parents=True, exist_ok=True)
+    ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    _token_log["timestamp"] = ts
+    log_path = LOGS_DIR / f"translate-{ts}.json"
+    log_path.write_text(json.dumps(_token_log, indent=2) + "\n")
+    print(f"\nToken usage log: {log_path.relative_to(REPO_ROOT)}")
+    t = _token_log["totals"]
+    print(f"  API calls: {t['api_calls']}")
+    print(f"  Prompt tokens: {t['prompt_tokens']:,}")
+    print(f"  Completion tokens: {t['completion_tokens']:,}")
+    print(f"  Total tokens: {t['total_tokens']:,}")
+    return log_path
 
 # --- Glossary ---
 
@@ -313,6 +366,7 @@ DOCUMENT TO TRANSLATE:
 {content}"""
 
     response = client.models.generate_content(model=MODEL, contents=prompt)
+    track_tokens(response, source_path, lang, "translate")
     translated = response.text
 
     # Strip markdown code fences if Gemini wrapped the output
@@ -326,7 +380,7 @@ DOCUMENT TO TRANSLATE:
     return translated
 
 
-def back_translate(client, translated_text, lang_name):
+def back_translate(client, translated_text, lang_name, source_file="", lang=""):
     """Pass 2: Back-translate to English for verification."""
     prompt = f"""Translate the following {lang_name} markdown document back to English.
 Preserve all markdown formatting. Translate naturally — this is for verification purposes.
@@ -338,10 +392,11 @@ DOCUMENT:
     response = client.models.generate_content(
         model=BACK_TRANSLATE_MODEL, contents=prompt
     )
+    track_tokens(response, source_file, lang, "back_translate")
     return response.text
 
 
-def evaluate_translation(client, original, translated, back_translated, lang_name):
+def evaluate_translation(client, original, translated, back_translated, lang_name, source_file="", lang=""):
     """Pass 2b: Evaluate translation quality via back-translation comparison."""
     prompt = f"""You are a translation quality evaluator. Compare an original English document with its back-translation (English → {lang_name} → English) to identify potential translation issues.
 
@@ -362,10 +417,11 @@ BACK-TRANSLATION:
 {back_translated[:3000]}"""
 
     response = client.models.generate_content(model=MODEL, contents=prompt)
+    track_tokens(response, source_file, lang, "evaluate")
     return response.text
 
 
-def final_polish(client, translated_text, eval_notes, lang_name, glossary, lang):
+def final_polish(client, translated_text, eval_notes, lang_name, glossary, lang, source_file=""):
     """Pass 3: Final polish incorporating eval feedback."""
     glossary_instructions = build_glossary_prompt(glossary, lang)
 
@@ -389,6 +445,7 @@ DOCUMENT:
 {translated_text}"""
 
     response = client.models.generate_content(model=MODEL, contents=prompt)
+    track_tokens(response, source_file, lang, "polish")
     polished = response.text
 
     # Strip markdown code fences if wrapped
@@ -413,18 +470,18 @@ def process_file(client, source_file, lang, lang_name, glossary):
 
     # Pass 2: Back-translate and evaluate
     print(f"    Pass 2: Back-translating for verification...")
-    back_translated = back_translate(client, translated, lang_name)
+    back_translated = back_translate(client, translated, lang_name, source_file, lang)
 
     print(f"    Pass 2b: Evaluating quality...")
     eval_notes = evaluate_translation(
-        client, original, translated, back_translated, lang_name
+        client, original, translated, back_translated, lang_name, source_file, lang
     )
 
     # Pass 3: Final polish
     has_issues = "no significant issues" not in eval_notes.lower()
     if has_issues:
         print(f"    Pass 3: Polishing (issues found)...")
-        final = final_polish(client, translated, eval_notes, lang_name, glossary, lang)
+        final = final_polish(client, translated, eval_notes, lang_name, glossary, lang, source_file)
     else:
         print(f"    Pass 3: Skipped (no issues found)")
         final = translated
@@ -512,8 +569,9 @@ def main():
             except Exception as e:
                 print(f"  ERROR [{lang}] {source_file}: {e}")
 
-    # Save state
+    # Save state and token log
     save_translation_state(state)
+    save_token_log()
 
     print()
     print(f"Done. {len(results)}/{len(work)} translations completed.")

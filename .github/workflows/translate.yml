@@ -67,6 +67,14 @@ jobs:
           fi
           python scripts/translate.py $ARGS
 
+      - name: Upload translation log
+        if: always() && hashFiles('scripts/logs/*.json') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: translation-log
+          path: scripts/logs/*.json
+          retention-days: 90
+
       - name: Notify on failure
         if: failure()
         env:
@@ -85,7 +93,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/*/ manifesto/*/ README.*.md CONTRIBUTING.*.md scripts/glossary.json || true
+          git add docs/*/ manifesto/*/ README.*.md CONTRIBUTING.*.md scripts/glossary.json scripts/logs/ || true
           if git diff --cached --quiet; then
             echo "No translation changes to commit"
           else
