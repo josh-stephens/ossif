@@ -1,30 +1,19 @@
 name: Translate Documents
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'README.md'
-      - 'CONTRIBUTING.md'
-      - 'docs/*.md'
-      - 'manifesto/*.md'
-      - '!docs/*/**.md'
-      - '!manifesto/*/**.md'
   schedule:
-    # Daily at midnight UTC
     - cron: '0 0 * * *'
   workflow_dispatch:
     inputs:
       force:
-        description: 'Force retranslation of all files'
+        description: Force retranslation of all files
         type: boolean
         default: false
       languages:
-        description: 'Language codes to translate (space-separated, empty = all)'
+        description: Language codes (space-separated, empty for all)
         type: string
         default: ''
 
-# Only one translation job at a time
 concurrency:
   group: translations
   cancel-in-progress: false
@@ -35,46 +24,35 @@ jobs:
     permissions:
       contents: write
       issues: write
-
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
       - name: Install dependencies
         run: pip install google-genai
 
-      - name: Check for English doc changes
+      - name: Check for changes
         id: changes
         run: |
-          # Get the last translation commit (or first commit if none)
-          LAST_TRANSLATE=$(git log --all --grep="chore: update translations" --format="%H" -1 2>/dev/null || true)
-          if [ -z "$LAST_TRANSLATE" ]; then
-            echo "No previous translation commit found, translating all"
+          LAST=$(git log --all --grep="chore: update translations" --format="%H" -1 2>/dev/null || true)
+          if [ -z "$LAST" ]; then
             echo "has_changes=true" >> "$GITHUB_OUTPUT"
           else
-            CHANGED=$(git diff --name-only "$LAST_TRANSLATE" HEAD -- \
-              README.md CONTRIBUTING.md \
-              docs/vision.md docs/values.md docs/primer.md docs/platform.md \
-              docs/technology.md docs/ai-coexistence.md docs/falsifiability.md \
-              docs/governance.md docs/influences.md \
-              manifesto/letter.md manifesto/one-pager.md)
+            CHANGED=$(git diff --name-only "$LAST" HEAD -- README.md CONTRIBUTING.md docs/*.md manifesto/*.md)
             if [ -n "$CHANGED" ]; then
-              echo "Changed files: $CHANGED"
               echo "has_changes=true" >> "$GITHUB_OUTPUT"
             else
-              echo "No English doc changes since last translation"
               echo "has_changes=false" >> "$GITHUB_OUTPUT"
             fi
           fi
 
-      - name: Run translation pipeline
-        if: ${{ steps.changes.outputs.has_changes == 'true' || github.event.inputs.force == 'true' }}
+      - name: Translate
+        if: steps.changes.outputs.has_changes == 'true' || github.event.inputs.force == 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           INPUT_FORCE: ${{ inputs.force }}
@@ -94,40 +72,28 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
-          SERVER_URL: ${{ github.server_url }}
-          RUN_ID: ${{ github.run_id }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
-          gh issue create \
-            --repo "$REPO" \
-            --title "Translation pipeline failed — $(date -u +%Y-%m-%d)" \
-            --body "The daily translation pipeline failed. Check the [workflow run](${SERVER_URL}/${REPO}/actions/runs/${RUN_ID}) for details.
+          gh issue create --repo "$REPO" \
+            --title "Translation pipeline failed" \
+            --body "Check the [workflow run]($RUN_URL) for details."
 
-Possible causes:
-- Gemini API key expired or invalid
-- Gemini API rate limit exceeded
-- Model name changed (currently using gemini-3-flash-preview)
-- Network error during translation"
-
-      - name: Commit and push translations
-        if: ${{ steps.changes.outputs.has_changes == 'true' || github.event.inputs.force == 'true' }}
+      - name: Commit translations
+        if: steps.changes.outputs.has_changes == 'true' || github.event.inputs.force == 'true'
         env:
           EVENT_NAME: ${{ github.event_name }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          # Add all translation outputs
-          git add docs/*/  manifesto/*/  README.*.md CONTRIBUTING.*.md scripts/glossary.json scripts/.translation-state.json
-
-          # Check if there are changes to commit
+          git add docs/*/ manifesto/*/ README.*.md CONTRIBUTING.*.md scripts/glossary.json || true
           if git diff --cached --quiet; then
             echo "No translation changes to commit"
           else
-            LANG_COUNT=$(git diff --cached --name-only | grep -oP '(?<=docs/|manifesto/)[a-z]{2}(?=/)' | sort -u | wc -l)
-            FILE_COUNT=$(git diff --cached --name-only | wc -l)
+            LANGS=$(git diff --cached --name-only | grep -oP '(?<=docs/|manifesto/)[a-z]{2}(?=/)' | sort -u | wc -l)
+            FILES=$(git diff --cached --name-only | wc -l)
             git commit -m "chore: update translations
 
-Updated ${FILE_COUNT} translated files across ${LANG_COUNT} languages.
-Triggered by: ${EVENT_NAME}"
+          Updated $FILES translated files across $LANGS languages.
+          Triggered by: $EVENT_NAME"
             git push
           fi
