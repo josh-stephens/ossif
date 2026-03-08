@@ -30,6 +30,7 @@ If you can agree to these — not perfectly, not without struggle, but as aspira
 | [Falsifiability](docs/falsifiability.md) | What would prove OSSIF wrong — specific, testable failure conditions |
 | [Governance](docs/governance.md) | Who holds power, how decisions are made, dissolution criteria, values cost log |
 | [AI Coexistence](docs/ai-coexistence.md) | A framework for sapient AI rights and responsibilities |
+| [Roadmap](docs/roadmap.md) | Build path: Primer → Platform → Lens → Safe Harbor → Interface |
 | [Influences](docs/influences.md) | Intellectual lineage and recommended reading |
 | [Letter from the Founder](manifesto/letter.md) | Why this exists, in the founder's own words |
 | [One-Pager](manifesto/one-pager.md) | The 2-minute version you can share with anyone |
