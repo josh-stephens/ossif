@@ -55,6 +55,14 @@ Follow the Seven Imperatives. Specifically:
 - Unfalsifiable claims presented as established fact
 - Vandalism, spam, or deliberate bad-faith disruption (arguments that the framework is fundamentally wrong are not just allowed — they're essential. Sabotage is not the same as dissent.)
 
+## The Fork Invitation
+
+OSSIF claims to be a method, not just a set of conclusions. If that's true, someone should be able to apply the method faithfully and arrive at different policy positions than the ones in [platform.md](docs/platform.md).
+
+**We explicitly invite this.** Fork the repository, keep the epistemological commitments (evidence, falsifiability, steelmanning, the SIFT Check), and build a platform that reaches different conclusions. If you can do it rigorously, you've either proved that OSSIF's method works as advertised — or you've exposed that our conclusions were baked in from the start. Either outcome is valuable.
+
+A fork that contradicts our platform through better reasoning is not a threat. It's the highest form of contribution.
+
 ## Questions?
 
 Open an issue with the label "question". There are no stupid questions — only ones that haven't been asked yet.

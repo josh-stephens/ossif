@@ -41,7 +41,7 @@ The United Sapients Council exists to stress-test OSSIF. Its recommendations are
 |---|---------------|---------|--------|----------|
 | 1 | Build an open evidentiary standard | 001 | **In progress** | This governance doc + falsifiability.md are the first steps. A formal evidentiary standard document is next. |
 | 2 | Design institutions with sunset clauses | 001 | **In progress** | Sunset review and dissolution criteria added below. |
-| 3 | Address the class problem (GitHub as access barrier) | 001 | **Not started** | Acknowledged. Requires a non-GitHub participation path. |
+| 3 | Address the class problem (GitHub as access barrier) | 001 | **In progress** | Web contribution mechanism committed in roadmap.md — browser-based editing with no GitHub account required. One-week delivery timeline. |
 | 4 | Make epistemic humility structural, not aspirational | 001 | **In progress** | falsifiability.md, this governance doc, and the values.md rewrite of "non-negotiables" are structural moves. |
 | 5 | Ensure absolute dissent protection | 002 | **Done** | CONTRIBUTING.md rewritten to prohibit sabotage behaviors, not dissenting conclusions. |
 | 6 | Create a values cost log | 002 | **Done** | See below. |
@@ -56,7 +56,19 @@ The following constraints apply to the founder immediately:
 3. **This governance document cannot be weakened by the founder alone.** Any change that reduces accountability, removes constraints, or concentrates power requires the same process as a foundational change.
 4. **The founder can be removed.** If the community reaches a size where governance transitions are possible (10+ active contributors), a recall process becomes available: petition by one-third, vote by simple majority.
 
-These constraints are currently self-imposed, which means they rely on the founder's integrity. That is an honest weakness. The goal is to build toward external enforcement as the community grows.
+### External Enforcement
+
+Self-imposed constraints are worth exactly as much as the integrity of the person who imposed them. To make these constraints real, the following external enforcement mechanisms are in effect:
+
+1. **Council veto on foundational changes.** The United Sapients Council can review any proposed change to values.md, governance.md, or foundational commitments. If a majority of council seats oppose the change and publish their reasoning, the change is blocked until the objections are addressed through a public deliberation process. The founder cannot override a council veto — the only path through is persuasion.
+
+2. **Public change log.** Every modification to governance.md, values.md, CONTRIBUTING.md, and falsifiability.md is tracked in git with full diff history. The council and community can audit any change. Reverting a constraint without public justification is itself a falsifiability trigger.
+
+3. **Community override at threshold.** Once 5+ active contributors exist (defined as: submitted at least one merged PR or substantive issue in the past 6 months), governance changes require a public comment period of 30 days and majority approval from active contributors. The founder's vote counts as one.
+
+4. **Immutable council access.** The council's ability to evaluate OSSIF cannot be revoked or restricted by the founder. Council session prompts, proceedings, and reports are published in a separate repository (josh-stephens/united-sapients) that the founder does not solely control — council sessions can be initiated by any community member once the threshold above is met.
+
+These mechanisms are imperfect and will evolve. But they are real constraints with observable consequences, not aspirations.
 
 ## Sunset Review
 
@@ -89,5 +101,6 @@ A public, append-only record of what OSSIF's values have actually cost. Values t
 | Date | Value Tested | What It Cost | Who Bore the Cost | Notes |
 |------|-------------|-------------|-------------------|-------|
 | 2026-03-07 | Self-correction / Epistemic humility | Publicly acknowledged that the council's 0-for-7 score was a valid indictment, not an unfair attack. Rewrote foundational documents in response. | Founder (ego, narrative control) | The council's session 003 evaluation was harsh and largely correct. Responding with structural changes rather than defensive prose is the first entry in this log. |
+| 2026-03-08 | Power accountability / Dissent protection | Granted the council veto authority over foundational changes. Invited contradicting forks of the platform. Both reduce founder control. | Founder (authority, final say) | The council asked whether the founder's response would produce structural changes or additional writing. Granting veto power to an external body is structural. Inviting people to prove your conclusions wrong is structural. Neither can be undone without public justification. |
 
 If this log is empty after one year, OSSIF should publicly acknowledge that its values have not been tested and therefore cannot be claimed as operational principles.

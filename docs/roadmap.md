@@ -29,7 +29,24 @@ This document describes the concrete build path from "a set of documents on GitH
 - Deployed to a public URL (primer.ossif.org or primer.eusd.org)
 - Open source — the system prompt, the adaptation logic, all of it
 
-**Status:** Design phase. The [Soft Primer](primer.md) describes the vision. The [technology doc](technology.md) outlines the Avatar Conversation Portal. This phase merges them into running software.
+**Status:** Live at [primer.711bf.org](https://primer.711bf.org). FastAPI backend with Gemini Flash 3 streaming, full OSSIF corpus as system prompt context. Iterating on conversation quality and adaptation logic.
+
+## Phase 1.5: Web Contributions (Committed — 1 week)
+
+**What:** A browser-based contribution mechanism so people can participate in OSSIF without knowing git.
+
+**The problem:** The council identified this as "the class problem" — requiring GitHub literacy to contribute creates a barrier that filters for a narrow demographic. A framework about inclusive reasoning that can only be improved by people who know `git rebase` has a credibility gap.
+
+**How it works:**
+- The documentation site at [ossif.711bf.org](https://ossif.711bf.org) gets an "Edit this page" button on every document
+- Clicking it opens a simple web editor — no GitHub account required
+- Submissions go through a moderation queue (initially founder-reviewed, transitioning to community-reviewed)
+- Accepted changes become PRs on the repository automatically
+- Contributors are credited by name or pseudonym in the commit history
+
+**Why this matters:** Every unaddressed access barrier is a filter on who gets to shape the framework. Git is a tool for developers, not a prerequisite for civic participation.
+
+**Timeline:** Operational within one week of this commit. This is a commitment, not an aspiration.
 
 ## Phase 2: The Platform
 
@@ -136,8 +153,9 @@ These apply to every phase:
 
 | Phase | Status | Next Step |
 |-------|--------|-----------|
-| Documents | Live — 13 docs, translated to French, 9 more languages in pipeline | Full 10-language translation run |
-| The Primer | Design complete ([primer.md](primer.md), [technology.md](technology.md)) | Build v1: chat UI + OSSIF-grounded system prompt |
+| Documents | Live at [ossif.711bf.org](https://ossif.711bf.org) — 14 docs, translated to French, 9 more languages in pipeline | Full 10-language translation run |
+| The Primer | Live at [primer.711bf.org](https://primer.711bf.org) — streaming chat with full corpus | Conversation quality iteration, user testing |
+| Web Contributions | **Committed — 1 week** | Build edit UI on docs site, submission queue, auto-PR |
 | The Platform | Conceptual ([technology.md](technology.md) governance layer) | Evaluate Matrix vs custom build |
 | The Lens | Conceptual | Research data source APIs, prototype scorecard |
 | Safe Harbor | Foundation exists ([youtube-collection](https://github.com/josh-stephens/youtube-collection)) | Adapt analysis pipeline for moderation use case |
