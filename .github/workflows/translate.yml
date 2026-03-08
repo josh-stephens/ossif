@@ -1,6 +1,15 @@
 name: Translate Documents
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'README.md'
+      - 'CONTRIBUTING.md'
+      - 'docs/*.md'
+      - 'manifesto/*.md'
+      - '!docs/*/**.md'
+      - '!manifesto/*/**.md'
   schedule:
     # Daily at midnight UTC
     - cron: '0 0 * * *'
@@ -65,7 +74,7 @@ jobs:
           fi
 
       - name: Run translation pipeline
-        if: steps.changes.outputs.has_changes == 'true' || inputs.force == true
+        if: steps.changes.outputs.has_changes == 'true' || github.event.inputs.force == 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           INPUT_FORCE: ${{ inputs.force }}
@@ -84,21 +93,23 @@ jobs:
         if: failure()
         env:
           GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          SERVER_URL: ${{ github.server_url }}
+          RUN_ID: ${{ github.run_id }}
         run: |
           gh issue create \
-            --repo "${{ github.repository }}" \
+            --repo "$REPO" \
             --title "Translation pipeline failed — $(date -u +%Y-%m-%d)" \
-            --label "bug,translations" \
-            --body "The daily translation pipeline failed. Check the [workflow run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details.
+            --body "The daily translation pipeline failed. Check the [workflow run](${SERVER_URL}/${REPO}/actions/runs/${RUN_ID}) for details.
 
 Possible causes:
 - Gemini API key expired or invalid
 - Gemini API rate limit exceeded
-- Model name changed (currently using \`gemini-3-flash-preview\`)
+- Model name changed (currently using gemini-3-flash-preview)
 - Network error during translation"
 
       - name: Commit and push translations
-        if: steps.changes.outputs.has_changes == 'true' || inputs.force == true
+        if: steps.changes.outputs.has_changes == 'true' || github.event.inputs.force == 'true'
         env:
           EVENT_NAME: ${{ github.event_name }}
         run: |
