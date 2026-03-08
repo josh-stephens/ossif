@@ -74,7 +74,7 @@ jobs:
           fi
 
       - name: Run translation pipeline
-        if: steps.changes.outputs.has_changes == 'true' || github.event.inputs.force == 'true'
+        if: ${{ steps.changes.outputs.has_changes == 'true' || github.event.inputs.force == 'true' }}
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           INPUT_FORCE: ${{ inputs.force }}
@@ -109,7 +109,7 @@ Possible causes:
 - Network error during translation"
 
       - name: Commit and push translations
-        if: steps.changes.outputs.has_changes == 'true' || github.event.inputs.force == 'true'
+        if: ${{ steps.changes.outputs.has_changes == 'true' || github.event.inputs.force == 'true' }}
         env:
           EVENT_NAME: ${{ github.event_name }}
         run: |
