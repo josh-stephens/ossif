@@ -25,7 +25,7 @@ Or more concisely: **reduce suffering, increase prosperity, increase understandi
 - A collection of living documents (constitution, bill of rights, contract) maintained with version control and democratic consent
 - An adaptive educational framework (the Primer) that meets people where they are
 - A platform for transparent, evidence-based civic engagement
-- A protocol for reasoning — not a set of conclusions
+- A protocol for reasoning, and a set of current conclusions reached by applying it — the conclusions are revisable, the method is the foundation
 
 ## What OSSIF Is Not
 
@@ -53,7 +53,7 @@ Specifically:
 - **Technology** is advancing faster than oversight, creating power asymmetries that existing law cannot address
 - **Public discourse** has been weaponized, turning policy disagreements into identity warfare that makes compromise feel like betrayal
 
-The result: roughly half of any given population lacks the epistemic tools to evaluate the claims being made to them, and the other half lacks the institutional power to act on better information.
+The result: a significant portion of any given population lacks the epistemic tools to evaluate the claims being made to them, and those who do often lack the institutional power to act on better information.
 
 ## The Response
 
@@ -82,7 +82,7 @@ OSSIF is betting that:
 3. A critical mass of epistemically fit citizens can shift policy outcomes through legitimate democratic channels
 4. This approach scales better than revolution, survives better than movements built around charismatic leaders, and adapts better than rigid ideologies
 
-It's a bet, not a guarantee. OSSIF is explicitly designed to be falsifiable: if it doesn't work, the data will show it, and the framework can be revised or abandoned. That's not weakness — that's integrity.
+It's a bet, not a guarantee. OSSIF is explicitly designed to be falsifiable — and the specific conditions that would constitute failure are documented in [falsifiability.md](falsifiability.md). If it doesn't work, the data will show it, and the framework can be revised or abandoned. That's not weakness — that's integrity.
 
 ## The Timeline
 

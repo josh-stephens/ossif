@@ -80,15 +80,17 @@ OSSIF explicitly opposes these as threats to sapient flourishing:
 - **Willful ignorance**: choosing not to know when knowledge is available and relevant
 - **Sacred certainty**: treating any belief system — religious, political, or otherwise — as beyond scrutiny
 
-## The Non-Negotiables
+## Foundational Commitments
 
-Three principles that OSSIF will not compromise on, regardless of context:
+Three principles that OSSIF holds as its deepest commitments. They are not exempt from scrutiny — nothing is, including this sentence. But revising them requires the highest threshold of evidence and consensus, because they are load-bearing: remove any one and the framework loses coherence.
 
 1. **Coercive power must justify itself in shared, checkable terms** — not divine mandate, not party loyalty, not "because we can"
-2. **No ideology is above scrutiny** — religious, nationalist, progressive, libertarian — all get the same rules
+2. **No ideology is above scrutiny** — religious, nationalist, progressive, libertarian, *including OSSIF itself* — all get the same rules
 3. **Reducing future violence beats winning today's argument**
 
-If someone rejects these, OSSIF disengages — not because they are evil, but because the channel isn't viable yet.
+To revise a foundational commitment: a formal proposal with evidence that the commitment produces worse outcomes than its alternative, a deliberation period of no less than 90 days, a supermajority vote, and a published record of the reasoning. If someone can demonstrate that one of these commitments is wrong, that is not an attack — it is the framework working as intended.
+
+If someone rejects these commitments without engaging the evidence, OSSIF disengages — not because they are evil, but because the channel isn't viable yet.
 
 ## On Flexibility
 

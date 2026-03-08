@@ -6,7 +6,7 @@ OSSIF is not a political party, a religion, or a tech product. It is a **protoco
 
 ## The Seven Imperatives
 
-These have been stable since the beginning. They are the non-negotiable core:
+These have been stable since the beginning. They are the foundational commitments:
 
 1. **I want to believe in true things** — I am a truth seeker
 2. **I want to live in a just society**
@@ -27,6 +27,8 @@ If you can agree to these — not perfectly, not without struggle, but as aspira
 | [The Primer](docs/primer.md) | An adaptive educational framework inspired by *The Diamond Age* |
 | [Platform for Progress](docs/platform.md) | Concrete policy positions derived from OSSIF values |
 | [Technology](docs/technology.md) | Trust Tokens, the Avatar Portal, and system architecture |
+| [Falsifiability](docs/falsifiability.md) | What would prove OSSIF wrong — specific, testable failure conditions |
+| [Governance](docs/governance.md) | Who holds power, how decisions are made, dissolution criteria, values cost log |
 | [AI Coexistence](docs/ai-coexistence.md) | A framework for sapient AI rights and responsibilities |
 | [Influences](docs/influences.md) | Intellectual lineage and recommended reading |
 | [Letter from the Founder](manifesto/letter.md) | Why this exists, in the founder's own words |
@@ -42,7 +44,7 @@ If you can agree to these — not perfectly, not without struggle, but as aspira
 
 **Accessible to everyone.** Documents are written in plain language, not legalese. Curated versions exist for children, for accessibility needs, and for every language we can reach. Nobody gets left behind because the words are too complicated.
 
-**Protocol, not position.** OSSIF doesn't tell you what to conclude. It tells you how to reason. It offers guardrails, not a destination.
+**Protocol and platform.** OSSIF is both a method for reasoning and a set of current conclusions reached by applying that method. The conclusions — in [platform.md](docs/platform.md) — are revisable. Someone who applies the method faithfully and arrives at different conclusions is not wrong; they are doing exactly what the framework asks. The method is the foundation. The positions are its current output, not its identity.
 
 ## Why Now
 

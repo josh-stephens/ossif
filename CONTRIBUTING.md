@@ -53,7 +53,7 @@ Follow the Seven Imperatives. Specifically:
 - Changes that violate the core values without evidence-based justification
 - Content that dehumanizes any group or individual
 - Unfalsifiable claims presented as established fact
-- Contributions designed to undermine the framework from within (in good faith disagreement, you argue openly — you don't sabotage)
+- Vandalism, spam, or deliberate bad-faith disruption (arguments that the framework is fundamentally wrong are not just allowed — they're essential. Sabotage is not the same as dissent.)
 
 ## Questions?
 
