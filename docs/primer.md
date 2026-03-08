@@ -4,7 +4,7 @@
 
 ## What the Primer Is
 
-The Primer is OSSIF's adaptive educational framework. Its mission is to **uplift humans who have not developed critical thinking skills and guide them to OSSIF values as the best way to move our species forward** — without condescension, coercion, or tribal gatekeeping.
+The Primer is OSSIF's adaptive reasoning companion. Its mission is to **teach critical thinking methods — the SIFT Check, the Baloney Detection Kit, steelmanning, falsifiability — and let people apply them to reach their own conclusions** — without condescension, coercion, or tribal gatekeeping. The OSSIF documents are reference material, not a destination. Someone who applies the method rigorously and disagrees with OSSIF's platform has succeeded, not failed.
 
 The Primer exists in two complementary forms:
 
@@ -43,8 +43,8 @@ The Primer asks questions, presents choices, and responds to your answers. "What
 **4. Tone and Complexity Adjustment**
 The system adjusts vocabulary, sentence length, abstraction level, and narrative style in real time. A reader who skips stories and focuses on facts gets more facts. A reader who lights up at narrative gets more story. The adjustments happen continuously.
 
-**5. Convergence**
-Despite all the customization, every reader eventually encounters all of OSSIF's core principles — just in a personalized order and manner. The Soft Primer periodically links back to the Hard Primer: "This idea is stated formally in the Constitution as Article 3. Want to read the official wording?"
+**5. Reference, Not Convergence**
+The OSSIF documents are available as reference material — when a conversation touches on a topic that a document addresses, the Primer can link to it: "There's a formal treatment of this in the OSSIF Values document if you want to compare your thinking." But the Primer does not steer toward OSSIF's conclusions. The method is the product, not the platform.
 
 ## The Critical Thinking Toolkit
 
@@ -97,6 +97,6 @@ The Primer isn't just an educational tool. It's an **immune system against misin
 
 ## What Already Exists
 
-As of the initial commit, the Primer is a design document, not running software. Building it is one of the most important implementation goals. Contributors with experience in adaptive learning systems, educational technology, conversational AI, or interactive fiction are especially welcome.
+The Primer is live at [primer.711bf.org](https://primer.711bf.org). It uses Gemini Flash 3 for streaming conversation, with the full OSSIF corpus as reference context. The system prompt teaches reasoning methods and references OSSIF documents without steering toward conclusions. Source code: [github.com/josh-stephens/ossif-primer](https://github.com/josh-stephens/ossif-primer).
 
 The reading list in [influences.md](influences.md) provides context for the intellectual foundations of the Primer's design.
