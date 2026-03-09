@@ -1,0 +1,4132 @@
+{
+  "timestamp": "20260309T014524Z",
+  "model": "gemini-3-flash-preview",
+  "files": [
+    {
+      "file": "README.md",
+      "lang": "ar",
+      "pass": "translate",
+      "prompt_tokens": 1658,
+      "completion_tokens": 1701,
+      "total_tokens": 3359
+    },
+    {
+      "file": "README.md",
+      "lang": "es",
+      "pass": "translate",
+      "prompt_tokens": 1658,
+      "completion_tokens": 1413,
+      "total_tokens": 3071
+    },
+    {
+      "file": "README.md",
+      "lang": "fr",
+      "pass": "translate",
+      "prompt_tokens": 1659,
+      "completion_tokens": 1558,
+      "total_tokens": 3217
+    },
+    {
+      "file": "README.md",
+      "lang": "zh",
+      "pass": "translate",
+      "prompt_tokens": 1633,
+      "completion_tokens": 1232,
+      "total_tokens": 2865
+    },
+    {
+      "file": "README.md",
+      "lang": "es",
+      "pass": "back_translate",
+      "prompt_tokens": 1444,
+      "completion_tokens": 1229,
+      "total_tokens": 2673
+    },
+    {
+      "file": "README.md",
+      "lang": "fr",
+      "pass": "back_translate",
+      "prompt_tokens": 1589,
+      "completion_tokens": 1231,
+      "total_tokens": 2820
+    },
+    {
+      "file": "README.md",
+      "lang": "zh",
+      "pass": "back_translate",
+      "prompt_tokens": 1266,
+      "completion_tokens": 1237,
+      "total_tokens": 2503
+    },
+    {
+      "file": "README.md",
+      "lang": "ar",
+      "pass": "back_translate",
+      "prompt_tokens": 1733,
+      "completion_tokens": 1270,
+      "total_tokens": 3003
+    },
+    {
+      "file": "README.md",
+      "lang": "es",
+      "pass": "evaluate",
+      "prompt_tokens": 1546,
+      "completion_tokens": 380,
+      "total_tokens": 1926
+    },
+    {
+      "file": "README.md",
+      "lang": "zh",
+      "pass": "evaluate",
+      "prompt_tokens": 1552,
+      "completion_tokens": 518,
+      "total_tokens": 2070
+    },
+    {
+      "file": "README.md",
+      "lang": "ar",
+      "pass": "evaluate",
+      "prompt_tokens": 1542,
+      "completion_tokens": 657,
+      "total_tokens": 2199
+    },
+    {
+      "file": "README.md",
+      "lang": "es",
+      "pass": "polish",
+      "prompt_tokens": 2143,
+      "completion_tokens": 1424,
+      "total_tokens": 3567
+    },
+    {
+      "file": "README.md",
+      "lang": "fr",
+      "pass": "evaluate",
+      "prompt_tokens": 1545,
+      "completion_tokens": 481,
+      "total_tokens": 2026
+    },
+    {
+      "file": "README.md",
+      "lang": "zh",
+      "pass": "polish",
+      "prompt_tokens": 2074,
+      "completion_tokens": 1235,
+      "total_tokens": 3309
+    },
+    {
+      "file": "README.md",
+      "lang": "ar",
+      "pass": "polish",
+      "prompt_tokens": 2709,
+      "completion_tokens": 1718,
+      "total_tokens": 4427
+    },
+    {
+      "file": "README.md",
+      "lang": "fr",
+      "pass": "polish",
+      "prompt_tokens": 2390,
+      "completion_tokens": 1573,
+      "total_tokens": 3963
+    },
+    {
+      "file": "README.md",
+      "lang": "ru",
+      "pass": "translate",
+      "prompt_tokens": 1679,
+      "completion_tokens": 1567,
+      "total_tokens": 3246
+    },
+    {
+      "file": "README.md",
+      "lang": "pt",
+      "pass": "translate",
+      "prompt_tokens": 1668,
+      "completion_tokens": 1457,
+      "total_tokens": 3125
+    },
+    {
+      "file": "README.md",
+      "lang": "ru",
+      "pass": "back_translate",
+      "prompt_tokens": 1598,
+      "completion_tokens": 1245,
+      "total_tokens": 2843
+    },
+    {
+      "file": "README.md",
+      "lang": "de",
+      "pass": "translate",
+      "prompt_tokens": 1660,
+      "completion_tokens": 1580,
+      "total_tokens": 3240
+    },
+    {
+      "file": "README.md",
+      "lang": "ja",
+      "pass": "translate",
+      "prompt_tokens": 1647,
+      "completion_tokens": 1560,
+      "total_tokens": 3207
+    },
+    {
+      "file": "README.md",
+      "lang": "pt",
+      "pass": "back_translate",
+      "prompt_tokens": 1491,
+      "completion_tokens": 1221,
+      "total_tokens": 2712
+    },
+    {
+      "file": "README.md",
+      "lang": "de",
+      "pass": "back_translate",
+      "prompt_tokens": 1611,
+      "completion_tokens": 1256,
+      "total_tokens": 2867
+    },
+    {
+      "file": "README.md",
+      "lang": "ru",
+      "pass": "evaluate",
+      "prompt_tokens": 1543,
+      "completion_tokens": 451,
+      "total_tokens": 1994
+    },
+    {
+      "file": "README.md",
+      "lang": "pt",
+      "pass": "evaluate",
+      "prompt_tokens": 1551,
+      "completion_tokens": 337,
+      "total_tokens": 1888
+    },
+    {
+      "file": "README.md",
+      "lang": "ja",
+      "pass": "back_translate",
+      "prompt_tokens": 1591,
+      "completion_tokens": 1329,
+      "total_tokens": 2920
+    },
+    {
+      "file": "README.md",
+      "lang": "de",
+      "pass": "evaluate",
+      "prompt_tokens": 1551,
+      "completion_tokens": 410,
+      "total_tokens": 1961
+    },
+    {
+      "file": "README.md",
+      "lang": "ja",
+      "pass": "evaluate",
+      "prompt_tokens": 1548,
+      "completion_tokens": 467,
+      "total_tokens": 2015
+    },
+    {
+      "file": "README.md",
+      "lang": "ru",
+      "pass": "polish",
+      "prompt_tokens": 2389,
+      "completion_tokens": 1628,
+      "total_tokens": 4017
+    },
+    {
+      "file": "README.md",
+      "lang": "de",
+      "pass": "polish",
+      "prompt_tokens": 2342,
+      "completion_tokens": 1586,
+      "total_tokens": 3928
+    },
+    {
+      "file": "README.md",
+      "lang": "ja",
+      "pass": "polish",
+      "prompt_tokens": 2366,
+      "completion_tokens": 1570,
+      "total_tokens": 3936
+    },
+    {
+      "file": "README.md",
+      "lang": "pt",
+      "pass": "polish",
+      "prompt_tokens": 2153,
+      "completion_tokens": 1479,
+      "total_tokens": 3632
+    },
+    {
+      "file": "README.md",
+      "lang": "ko",
+      "pass": "translate",
+      "prompt_tokens": 1658,
+      "completion_tokens": 1638,
+      "total_tokens": 3296
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "es",
+      "pass": "translate",
+      "prompt_tokens": 1263,
+      "completion_tokens": 959,
+      "total_tokens": 2222
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "fr",
+      "pass": "translate",
+      "prompt_tokens": 1264,
+      "completion_tokens": 1117,
+      "total_tokens": 2381
+    },
+    {
+      "file": "README.md",
+      "lang": "ko",
+      "pass": "back_translate",
+      "prompt_tokens": 1669,
+      "completion_tokens": 1272,
+      "total_tokens": 2941
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "es",
+      "pass": "back_translate",
+      "prompt_tokens": 990,
+      "completion_tokens": 823,
+      "total_tokens": 1813
+    },
+    {
+      "file": "README.md",
+      "lang": "ko",
+      "pass": "evaluate",
+      "prompt_tokens": 1554,
+      "completion_tokens": 463,
+      "total_tokens": 2017
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "fr",
+      "pass": "back_translate",
+      "prompt_tokens": 1148,
+      "completion_tokens": 830,
+      "total_tokens": 1978
+    },
+    {
+      "file": "README.md",
+      "lang": "hi",
+      "pass": "translate",
+      "prompt_tokens": 1642,
+      "completion_tokens": 1494,
+      "total_tokens": 3136
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "es",
+      "pass": "evaluate",
+      "prompt_tokens": 1372,
+      "completion_tokens": 470,
+      "total_tokens": 1842
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "fr",
+      "pass": "evaluate",
+      "prompt_tokens": 1371,
+      "completion_tokens": 306,
+      "total_tokens": 1677
+    },
+    {
+      "file": "README.md",
+      "lang": "hi",
+      "pass": "back_translate",
+      "prompt_tokens": 1525,
+      "completion_tokens": 1230,
+      "total_tokens": 2755
+    },
+    {
+      "file": "README.md",
+      "lang": "ko",
+      "pass": "polish",
+      "prompt_tokens": 2452,
+      "completion_tokens": 1688,
+      "total_tokens": 4140
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "es",
+      "pass": "polish",
+      "prompt_tokens": 1779,
+      "completion_tokens": 961,
+      "total_tokens": 2740
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "zh",
+      "pass": "translate",
+      "prompt_tokens": 1238,
+      "completion_tokens": 869,
+      "total_tokens": 2107
+    },
+    {
+      "file": "README.md",
+      "lang": "hi",
+      "pass": "evaluate",
+      "prompt_tokens": 1537,
+      "completion_tokens": 511,
+      "total_tokens": 2048
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "fr",
+      "pass": "polish",
+      "prompt_tokens": 1774,
+      "completion_tokens": 1105,
+      "total_tokens": 2879
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "zh",
+      "pass": "back_translate",
+      "prompt_tokens": 903,
+      "completion_tokens": 852,
+      "total_tokens": 1755
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "ar",
+      "pass": "translate",
+      "prompt_tokens": 1263,
+      "completion_tokens": 1243,
+      "total_tokens": 2506
+    },
+    {
+      "file": "README.md",
+      "lang": "hi",
+      "pass": "polish",
+      "prompt_tokens": 2339,
+      "completion_tokens": 1498,
+      "total_tokens": 3837
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "zh",
+      "pass": "evaluate",
+      "prompt_tokens": 1365,
+      "completion_tokens": 248,
+      "total_tokens": 1613
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "ru",
+      "pass": "translate",
+      "prompt_tokens": 1284,
+      "completion_tokens": 1120,
+      "total_tokens": 2404
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "ar",
+      "pass": "back_translate",
+      "prompt_tokens": 1274,
+      "completion_tokens": 864,
+      "total_tokens": 2138
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "ru",
+      "pass": "back_translate",
+      "prompt_tokens": 1151,
+      "completion_tokens": 834,
+      "total_tokens": 1985
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "zh",
+      "pass": "polish",
+      "prompt_tokens": 1441,
+      "completion_tokens": 877,
+      "total_tokens": 2318
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "pt",
+      "pass": "translate",
+      "prompt_tokens": 1273,
+      "completion_tokens": 1022,
+      "total_tokens": 2295
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "ar",
+      "pass": "evaluate",
+      "prompt_tokens": 1376,
+      "completion_tokens": 494,
+      "total_tokens": 1870
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "ru",
+      "pass": "evaluate",
+      "prompt_tokens": 1369,
+      "completion_tokens": 544,
+      "total_tokens": 1913
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "ar",
+      "pass": "polish",
+      "prompt_tokens": 2087,
+      "completion_tokens": 1246,
+      "total_tokens": 3333
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "pt",
+      "pass": "back_translate",
+      "prompt_tokens": 1057,
+      "completion_tokens": 818,
+      "total_tokens": 1875
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "de",
+      "pass": "translate",
+      "prompt_tokens": 1265,
+      "completion_tokens": 1118,
+      "total_tokens": 2383
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "pt",
+      "pass": "evaluate",
+      "prompt_tokens": 1369,
+      "completion_tokens": 212,
+      "total_tokens": 1581
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "de",
+      "pass": "back_translate",
+      "prompt_tokens": 1149,
+      "completion_tokens": 835,
+      "total_tokens": 1984
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "ru",
+      "pass": "polish",
+      "prompt_tokens": 2035,
+      "completion_tokens": 1149,
+      "total_tokens": 3184
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "ja",
+      "pass": "translate",
+      "prompt_tokens": 1252,
+      "completion_tokens": 1093,
+      "total_tokens": 2345
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "de",
+      "pass": "evaluate",
+      "prompt_tokens": 1373,
+      "completion_tokens": 462,
+      "total_tokens": 1835
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "ko",
+      "pass": "translate",
+      "prompt_tokens": 1263,
+      "completion_tokens": 1173,
+      "total_tokens": 2436
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "ja",
+      "pass": "back_translate",
+      "prompt_tokens": 1124,
+      "completion_tokens": 873,
+      "total_tokens": 1997
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "pt",
+      "pass": "polish",
+      "prompt_tokens": 1594,
+      "completion_tokens": 1022,
+      "total_tokens": 2616
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "de",
+      "pass": "polish",
+      "prompt_tokens": 1932,
+      "completion_tokens": 1141,
+      "total_tokens": 3073
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "ja",
+      "pass": "evaluate",
+      "prompt_tokens": 1362,
+      "completion_tokens": 393,
+      "total_tokens": 1755
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "ko",
+      "pass": "back_translate",
+      "prompt_tokens": 1203,
+      "completion_tokens": 836,
+      "total_tokens": 2039
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "hi",
+      "pass": "translate",
+      "prompt_tokens": 1247,
+      "completion_tokens": 1129,
+      "total_tokens": 2376
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "ko",
+      "pass": "evaluate",
+      "prompt_tokens": 1365,
+      "completion_tokens": 419,
+      "total_tokens": 1784
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "ja",
+      "pass": "polish",
+      "prompt_tokens": 1825,
+      "completion_tokens": 1092,
+      "total_tokens": 2917
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "fr",
+      "pass": "translate",
+      "prompt_tokens": 1722,
+      "completion_tokens": 1810,
+      "total_tokens": 3532
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "hi",
+      "pass": "back_translate",
+      "prompt_tokens": 1160,
+      "completion_tokens": 822,
+      "total_tokens": 1982
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "fr",
+      "pass": "back_translate",
+      "prompt_tokens": 1842,
+      "completion_tokens": 1311,
+      "total_tokens": 3153
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "ko",
+      "pass": "polish",
+      "prompt_tokens": 1941,
+      "completion_tokens": 1191,
+      "total_tokens": 3132
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "es",
+      "pass": "translate",
+      "prompt_tokens": 1721,
+      "completion_tokens": 1635,
+      "total_tokens": 3356
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "fr",
+      "pass": "evaluate",
+      "prompt_tokens": 1369,
+      "completion_tokens": 469,
+      "total_tokens": 1838
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "hi",
+      "pass": "evaluate",
+      "prompt_tokens": 1379,
+      "completion_tokens": 471,
+      "total_tokens": 1850
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "es",
+      "pass": "back_translate",
+      "prompt_tokens": 1666,
+      "completion_tokens": 1328,
+      "total_tokens": 2994
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "zh",
+      "pass": "translate",
+      "prompt_tokens": 1696,
+      "completion_tokens": 1347,
+      "total_tokens": 3043
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "fr",
+      "pass": "polish",
+      "prompt_tokens": 2631,
+      "completion_tokens": 1811,
+      "total_tokens": 4442
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "lang": "hi",
+      "pass": "polish",
+      "prompt_tokens": 1934,
+      "completion_tokens": 1131,
+      "total_tokens": 3065
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "es",
+      "pass": "evaluate",
+      "prompt_tokens": 1387,
+      "completion_tokens": 345,
+      "total_tokens": 1732
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "zh",
+      "pass": "back_translate",
+      "prompt_tokens": 1381,
+      "completion_tokens": 1309,
+      "total_tokens": 2690
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "zh",
+      "pass": "evaluate",
+      "prompt_tokens": 1385,
+      "completion_tokens": 487,
+      "total_tokens": 1872
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "ar",
+      "pass": "translate",
+      "prompt_tokens": 1721,
+      "completion_tokens": 1949,
+      "total_tokens": 3670
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "ru",
+      "pass": "translate",
+      "prompt_tokens": 1742,
+      "completion_tokens": 1821,
+      "total_tokens": 3563
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "es",
+      "pass": "polish",
+      "prompt_tokens": 2330,
+      "completion_tokens": 1637,
+      "total_tokens": 3967
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "ar",
+      "pass": "back_translate",
+      "prompt_tokens": 1980,
+      "completion_tokens": 1350,
+      "total_tokens": 3330
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "ru",
+      "pass": "back_translate",
+      "prompt_tokens": 1852,
+      "completion_tokens": 1360,
+      "total_tokens": 3212
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "ar",
+      "pass": "evaluate",
+      "prompt_tokens": 1390,
+      "completion_tokens": 576,
+      "total_tokens": 1966
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "pt",
+      "pass": "translate",
+      "prompt_tokens": 1731,
+      "completion_tokens": 1671,
+      "total_tokens": 3402
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "zh",
+      "pass": "polish",
+      "prompt_tokens": 2159,
+      "completion_tokens": 1359,
+      "total_tokens": 3518
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "ru",
+      "pass": "evaluate",
+      "prompt_tokens": 1382,
+      "completion_tokens": 571,
+      "total_tokens": 1953
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "pt",
+      "pass": "back_translate",
+      "prompt_tokens": 1705,
+      "completion_tokens": 1306,
+      "total_tokens": 3011
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "ar",
+      "pass": "polish",
+      "prompt_tokens": 2875,
+      "completion_tokens": 1993,
+      "total_tokens": 4868
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "pt",
+      "pass": "evaluate",
+      "prompt_tokens": 1393,
+      "completion_tokens": 298,
+      "total_tokens": 1691
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "de",
+      "pass": "translate",
+      "prompt_tokens": 1723,
+      "completion_tokens": 1826,
+      "total_tokens": 3549
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "ru",
+      "pass": "polish",
+      "prompt_tokens": 2763,
+      "completion_tokens": 1879,
+      "total_tokens": 4642
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "ja",
+      "pass": "translate",
+      "prompt_tokens": 1710,
+      "completion_tokens": 1771,
+      "total_tokens": 3481
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "pt",
+      "pass": "polish",
+      "prompt_tokens": 2328,
+      "completion_tokens": 1668,
+      "total_tokens": 3996
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "de",
+      "pass": "back_translate",
+      "prompt_tokens": 1857,
+      "completion_tokens": 1310,
+      "total_tokens": 3167
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "ja",
+      "pass": "back_translate",
+      "prompt_tokens": 1802,
+      "completion_tokens": 1336,
+      "total_tokens": 3138
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "de",
+      "pass": "evaluate",
+      "prompt_tokens": 1371,
+      "completion_tokens": 422,
+      "total_tokens": 1793
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "ja",
+      "pass": "evaluate",
+      "prompt_tokens": 1390,
+      "completion_tokens": 394,
+      "total_tokens": 1784
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "hi",
+      "pass": "translate",
+      "prompt_tokens": 1705,
+      "completion_tokens": 1796,
+      "total_tokens": 3501
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "ko",
+      "pass": "translate",
+      "prompt_tokens": 1721,
+      "completion_tokens": 1921,
+      "total_tokens": 3642
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "de",
+      "pass": "polish",
+      "prompt_tokens": 2600,
+      "completion_tokens": 1849,
+      "total_tokens": 4449
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "hi",
+      "pass": "back_translate",
+      "prompt_tokens": 1828,
+      "completion_tokens": 1319,
+      "total_tokens": 3147
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "ko",
+      "pass": "back_translate",
+      "prompt_tokens": 1952,
+      "completion_tokens": 1342,
+      "total_tokens": 3294
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "ja",
+      "pass": "polish",
+      "prompt_tokens": 2504,
+      "completion_tokens": 1777,
+      "total_tokens": 4281
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "fr",
+      "pass": "translate",
+      "prompt_tokens": 1621,
+      "completion_tokens": 1722,
+      "total_tokens": 3343
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "hi",
+      "pass": "evaluate",
+      "prompt_tokens": 1385,
+      "completion_tokens": 714,
+      "total_tokens": 2099
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "ko",
+      "pass": "evaluate",
+      "prompt_tokens": 1391,
+      "completion_tokens": 440,
+      "total_tokens": 1831
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "es",
+      "pass": "translate",
+      "prompt_tokens": 1620,
+      "completion_tokens": 1496,
+      "total_tokens": 3116
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "hi",
+      "pass": "polish",
+      "prompt_tokens": 2845,
+      "completion_tokens": 1835,
+      "total_tokens": 4680
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "fr",
+      "pass": "back_translate",
+      "prompt_tokens": 1753,
+      "completion_tokens": 1210,
+      "total_tokens": 2963
+    },
+    {
+      "file": "docs/vision.md",
+      "lang": "ko",
+      "pass": "polish",
+      "prompt_tokens": 2711,
+      "completion_tokens": 1950,
+      "total_tokens": 4661
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "es",
+      "pass": "back_translate",
+      "prompt_tokens": 1527,
+      "completion_tokens": 1224,
+      "total_tokens": 2751
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "fr",
+      "pass": "evaluate",
+      "prompt_tokens": 1378,
+      "completion_tokens": 337,
+      "total_tokens": 1715
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "zh",
+      "pass": "translate",
+      "prompt_tokens": 1595,
+      "completion_tokens": 1297,
+      "total_tokens": 2892
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "es",
+      "pass": "evaluate",
+      "prompt_tokens": 1373,
+      "completion_tokens": 418,
+      "total_tokens": 1791
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "ar",
+      "pass": "translate",
+      "prompt_tokens": 1620,
+      "completion_tokens": 1729,
+      "total_tokens": 3349
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "fr",
+      "pass": "polish",
+      "prompt_tokens": 2410,
+      "completion_tokens": 1728,
+      "total_tokens": 4138
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "zh",
+      "pass": "back_translate",
+      "prompt_tokens": 1331,
+      "completion_tokens": 1278,
+      "total_tokens": 2609
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "zh",
+      "pass": "evaluate",
+      "prompt_tokens": 1393,
+      "completion_tokens": 481,
+      "total_tokens": 1874
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "es",
+      "pass": "polish",
+      "prompt_tokens": 2264,
+      "completion_tokens": 1495,
+      "total_tokens": 3759
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "ar",
+      "pass": "back_translate",
+      "prompt_tokens": 1760,
+      "completion_tokens": 1326,
+      "total_tokens": 3086
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "ru",
+      "pass": "translate",
+      "prompt_tokens": 1641,
+      "completion_tokens": 1759,
+      "total_tokens": 3400
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "pt",
+      "pass": "translate",
+      "prompt_tokens": 1630,
+      "completion_tokens": 1503,
+      "total_tokens": 3133
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "zh",
+      "pass": "polish",
+      "prompt_tokens": 2102,
+      "completion_tokens": 1303,
+      "total_tokens": 3405
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "ar",
+      "pass": "evaluate",
+      "prompt_tokens": 1400,
+      "completion_tokens": 481,
+      "total_tokens": 1881
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "ru",
+      "pass": "back_translate",
+      "prompt_tokens": 1790,
+      "completion_tokens": 1309,
+      "total_tokens": 3099
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "pt",
+      "pass": "back_translate",
+      "prompt_tokens": 1537,
+      "completion_tokens": 1191,
+      "total_tokens": 2728
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "ru",
+      "pass": "evaluate",
+      "prompt_tokens": 1374,
+      "completion_tokens": 415,
+      "total_tokens": 1789
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "pt",
+      "pass": "evaluate",
+      "prompt_tokens": 1377,
+      "completion_tokens": 525,
+      "total_tokens": 1902
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "ar",
+      "pass": "polish",
+      "prompt_tokens": 2560,
+      "completion_tokens": 1834,
+      "total_tokens": 4394
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "de",
+      "pass": "translate",
+      "prompt_tokens": 1622,
+      "completion_tokens": 1701,
+      "total_tokens": 3323
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "ru",
+      "pass": "polish",
+      "prompt_tokens": 2545,
+      "completion_tokens": 1766,
+      "total_tokens": 4311
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "de",
+      "pass": "back_translate",
+      "prompt_tokens": 1733,
+      "completion_tokens": 1275,
+      "total_tokens": 3008
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "ja",
+      "pass": "translate",
+      "prompt_tokens": 1609,
+      "completion_tokens": 1610,
+      "total_tokens": 3219
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "pt",
+      "pass": "polish",
+      "prompt_tokens": 2387,
+      "completion_tokens": 1508,
+      "total_tokens": 3895
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "de",
+      "pass": "evaluate",
+      "prompt_tokens": 1400,
+      "completion_tokens": 605,
+      "total_tokens": 2005
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "ja",
+      "pass": "back_translate",
+      "prompt_tokens": 1641,
+      "completion_tokens": 1293,
+      "total_tokens": 2934
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "ko",
+      "pass": "translate",
+      "prompt_tokens": 1620,
+      "completion_tokens": 1778,
+      "total_tokens": 3398
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "ja",
+      "pass": "evaluate",
+      "prompt_tokens": 1390,
+      "completion_tokens": 436,
+      "total_tokens": 1826
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "ko",
+      "pass": "back_translate",
+      "prompt_tokens": 1809,
+      "completion_tokens": 1266,
+      "total_tokens": 3075
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "hi",
+      "pass": "translate",
+      "prompt_tokens": 1604,
+      "completion_tokens": 1607,
+      "total_tokens": 3211
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "de",
+      "pass": "polish",
+      "prompt_tokens": 2659,
+      "completion_tokens": 1720,
+      "total_tokens": 4379
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "ko",
+      "pass": "evaluate",
+      "prompt_tokens": 1379,
+      "completion_tokens": 640,
+      "total_tokens": 2019
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "hi",
+      "pass": "back_translate",
+      "prompt_tokens": 1638,
+      "completion_tokens": 1247,
+      "total_tokens": 2885
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "fr",
+      "pass": "translate",
+      "prompt_tokens": 1851,
+      "completion_tokens": 1859,
+      "total_tokens": 3710
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "ja",
+      "pass": "polish",
+      "prompt_tokens": 2385,
+      "completion_tokens": 1623,
+      "total_tokens": 4008
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "ko",
+      "pass": "polish",
+      "prompt_tokens": 2768,
+      "completion_tokens": 1787,
+      "total_tokens": 4555
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "hi",
+      "pass": "evaluate",
+      "prompt_tokens": 1388,
+      "completion_tokens": 665,
+      "total_tokens": 2053
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "fr",
+      "pass": "back_translate",
+      "prompt_tokens": 1890,
+      "completion_tokens": 1460,
+      "total_tokens": 3350
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "zh",
+      "pass": "translate",
+      "prompt_tokens": 1825,
+      "completion_tokens": 1493,
+      "total_tokens": 3318
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "es",
+      "pass": "translate",
+      "prompt_tokens": 1850,
+      "completion_tokens": 1677,
+      "total_tokens": 3527
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "fr",
+      "pass": "evaluate",
+      "prompt_tokens": 1396,
+      "completion_tokens": 387,
+      "total_tokens": 1783
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "zh",
+      "pass": "back_translate",
+      "prompt_tokens": 1526,
+      "completion_tokens": 1451,
+      "total_tokens": 2977
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "fr",
+      "pass": "polish",
+      "prompt_tokens": 2597,
+      "completion_tokens": 1858,
+      "total_tokens": 4455
+    },
+    {
+      "file": "docs/values.md",
+      "lang": "hi",
+      "pass": "polish",
+      "prompt_tokens": 2606,
+      "completion_tokens": 1606,
+      "total_tokens": 4212
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "zh",
+      "pass": "evaluate",
+      "prompt_tokens": 1388,
+      "completion_tokens": 616,
+      "total_tokens": 2004
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "ru",
+      "pass": "translate",
+      "prompt_tokens": 1871,
+      "completion_tokens": 1930,
+      "total_tokens": 3801
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "ar",
+      "pass": "translate",
+      "prompt_tokens": 1850,
+      "completion_tokens": 2014,
+      "total_tokens": 3864
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "zh",
+      "pass": "polish",
+      "prompt_tokens": 2432,
+      "completion_tokens": 1495,
+      "total_tokens": 3927
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "ru",
+      "pass": "back_translate",
+      "prompt_tokens": 1961,
+      "completion_tokens": 1472,
+      "total_tokens": 3433
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "ar",
+      "pass": "back_translate",
+      "prompt_tokens": 2045,
+      "completion_tokens": 1453,
+      "total_tokens": 3498
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "pt",
+      "pass": "translate",
+      "prompt_tokens": 1860,
+      "completion_tokens": 1700,
+      "total_tokens": 3560
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "ru",
+      "pass": "evaluate",
+      "prompt_tokens": 1397,
+      "completion_tokens": 602,
+      "total_tokens": 1999
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "ar",
+      "pass": "evaluate",
+      "prompt_tokens": 1401,
+      "completion_tokens": 521,
+      "total_tokens": 1922
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "pt",
+      "pass": "back_translate",
+      "prompt_tokens": 1734,
+      "completion_tokens": 1439,
+      "total_tokens": 3173
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "ru",
+      "pass": "polish",
+      "prompt_tokens": 2903,
+      "completion_tokens": 1938,
+      "total_tokens": 4841
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "ar",
+      "pass": "polish",
+      "prompt_tokens": 2885,
+      "completion_tokens": 2034,
+      "total_tokens": 4919
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "pt",
+      "pass": "evaluate",
+      "prompt_tokens": 1394,
+      "completion_tokens": 365,
+      "total_tokens": 1759
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "de",
+      "pass": "translate",
+      "prompt_tokens": 1852,
+      "completion_tokens": 1893,
+      "total_tokens": 3745
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "ja",
+      "pass": "translate",
+      "prompt_tokens": 1839,
+      "completion_tokens": 1788,
+      "total_tokens": 3627
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "pt",
+      "pass": "polish",
+      "prompt_tokens": 2424,
+      "completion_tokens": 1721,
+      "total_tokens": 4145
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "de",
+      "pass": "back_translate",
+      "prompt_tokens": 1924,
+      "completion_tokens": 1449,
+      "total_tokens": 3373
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "ja",
+      "pass": "back_translate",
+      "prompt_tokens": 1819,
+      "completion_tokens": 1484,
+      "total_tokens": 3303
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "de",
+      "pass": "evaluate",
+      "prompt_tokens": 1392,
+      "completion_tokens": 527,
+      "total_tokens": 1919
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "ko",
+      "pass": "translate",
+      "prompt_tokens": 1850,
+      "completion_tokens": 1958,
+      "total_tokens": 3808
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "ja",
+      "pass": "evaluate",
+      "prompt_tokens": 1395,
+      "completion_tokens": 396,
+      "total_tokens": 1791
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "de",
+      "pass": "polish",
+      "prompt_tokens": 2772,
+      "completion_tokens": 1921,
+      "total_tokens": 4693
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "ko",
+      "pass": "back_translate",
+      "prompt_tokens": 1989,
+      "completion_tokens": 1486,
+      "total_tokens": 3475
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "ja",
+      "pass": "polish",
+      "prompt_tokens": 2523,
+      "completion_tokens": 1810,
+      "total_tokens": 4333
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "ko",
+      "pass": "evaluate",
+      "prompt_tokens": 1379,
+      "completion_tokens": 339,
+      "total_tokens": 1718
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "hi",
+      "pass": "translate",
+      "prompt_tokens": 1834,
+      "completion_tokens": 1938,
+      "total_tokens": 3772
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "ko",
+      "pass": "polish",
+      "prompt_tokens": 2647,
+      "completion_tokens": 1985,
+      "total_tokens": 4632
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "hi",
+      "pass": "back_translate",
+      "prompt_tokens": 1971,
+      "completion_tokens": 1426,
+      "total_tokens": 3397
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "fr",
+      "pass": "translate",
+      "prompt_tokens": 2088,
+      "completion_tokens": 2439,
+      "total_tokens": 4527
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "hi",
+      "pass": "evaluate",
+      "prompt_tokens": 1385,
+      "completion_tokens": 667,
+      "total_tokens": 2052
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "fr",
+      "pass": "back_translate",
+      "prompt_tokens": 2470,
+      "completion_tokens": 1675,
+      "total_tokens": 4145
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "es",
+      "pass": "translate",
+      "prompt_tokens": 2087,
+      "completion_tokens": 2222,
+      "total_tokens": 4309
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "hi",
+      "pass": "polish",
+      "prompt_tokens": 2941,
+      "completion_tokens": 1974,
+      "total_tokens": 4915
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "es",
+      "pass": "back_translate",
+      "prompt_tokens": 2253,
+      "completion_tokens": 1660,
+      "total_tokens": 3913
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "fr",
+      "pass": "evaluate",
+      "prompt_tokens": 1298,
+      "completion_tokens": 459,
+      "total_tokens": 1757
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "es",
+      "pass": "back_translate",
+      "prompt_tokens": 1708,
+      "completion_tokens": 1436,
+      "total_tokens": 3144
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "es",
+      "pass": "evaluate",
+      "prompt_tokens": 1308,
+      "completion_tokens": 428,
+      "total_tokens": 1736
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "zh",
+      "pass": "translate",
+      "prompt_tokens": 2062,
+      "completion_tokens": 1837,
+      "total_tokens": 3899
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "es",
+      "pass": "evaluate",
+      "prompt_tokens": 1393,
+      "completion_tokens": 503,
+      "total_tokens": 1896
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "es",
+      "pass": "polish",
+      "prompt_tokens": 3000,
+      "completion_tokens": 2274,
+      "total_tokens": 5274
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "fr",
+      "pass": "polish",
+      "prompt_tokens": 3249,
+      "completion_tokens": 2521,
+      "total_tokens": 5770
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "zh",
+      "pass": "back_translate",
+      "prompt_tokens": 1871,
+      "completion_tokens": 1774,
+      "total_tokens": 3645
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "zh",
+      "pass": "evaluate",
+      "prompt_tokens": 1316,
+      "completion_tokens": 579,
+      "total_tokens": 1895
+    },
+    {
+      "file": "docs/primer.md",
+      "lang": "es",
+      "pass": "polish",
+      "prompt_tokens": 2530,
+      "completion_tokens": 1687,
+      "total_tokens": 4217
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "ru",
+      "pass": "translate",
+      "prompt_tokens": 2108,
+      "completion_tokens": 2680,
+      "total_tokens": 4788
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "ar",
+      "pass": "translate",
+      "prompt_tokens": 2087,
+      "completion_tokens": 2686,
+      "total_tokens": 4773
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "zh",
+      "pass": "polish",
+      "prompt_tokens": 2740,
+      "completion_tokens": 1860,
+      "total_tokens": 4600
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "ru",
+      "pass": "back_translate",
+      "prompt_tokens": 2711,
+      "completion_tokens": 1797,
+      "total_tokens": 4508
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "pt",
+      "pass": "translate",
+      "prompt_tokens": 2097,
+      "completion_tokens": 2237,
+      "total_tokens": 4334
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "ru",
+      "pass": "evaluate",
+      "prompt_tokens": 1323,
+      "completion_tokens": 529,
+      "total_tokens": 1852
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "ar",
+      "pass": "back_translate",
+      "prompt_tokens": 2717,
+      "completion_tokens": 1710,
+      "total_tokens": 4427
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "de",
+      "pass": "translate",
+      "prompt_tokens": 2089,
+      "completion_tokens": 2489,
+      "total_tokens": 4578
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "ar",
+      "pass": "evaluate",
+      "prompt_tokens": 1301,
+      "completion_tokens": 377,
+      "total_tokens": 1678
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "pt",
+      "pass": "back_translate",
+      "prompt_tokens": 2271,
+      "completion_tokens": 1671,
+      "total_tokens": 3942
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "ru",
+      "pass": "polish",
+      "prompt_tokens": 3580,
+      "completion_tokens": 2697,
+      "total_tokens": 6277
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "pt",
+      "pass": "evaluate",
+      "prompt_tokens": 1312,
+      "completion_tokens": 406,
+      "total_tokens": 1718
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "de",
+      "pass": "back_translate",
+      "prompt_tokens": 2520,
+      "completion_tokens": 1750,
+      "total_tokens": 4270
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "ar",
+      "pass": "polish",
+      "prompt_tokens": 3413,
+      "completion_tokens": 2723,
+      "total_tokens": 6136
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "de",
+      "pass": "evaluate",
+      "prompt_tokens": 1303,
+      "completion_tokens": 573,
+      "total_tokens": 1876
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "pt",
+      "pass": "polish",
+      "prompt_tokens": 3002,
+      "completion_tokens": 2249,
+      "total_tokens": 5251
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "ko",
+      "pass": "translate",
+      "prompt_tokens": 2087,
+      "completion_tokens": 2456,
+      "total_tokens": 4543
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "ja",
+      "pass": "translate",
+      "prompt_tokens": 2076,
+      "completion_tokens": 2331,
+      "total_tokens": 4407
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "de",
+      "pass": "polish",
+      "prompt_tokens": 3414,
+      "completion_tokens": 2499,
+      "total_tokens": 5913
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "ja",
+      "pass": "back_translate",
+      "prompt_tokens": 2362,
+      "completion_tokens": 1817,
+      "total_tokens": 4179
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "ko",
+      "pass": "back_translate",
+      "prompt_tokens": 2487,
+      "completion_tokens": 1795,
+      "total_tokens": 4282
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "hi",
+      "pass": "translate",
+      "prompt_tokens": 2071,
+      "completion_tokens": 2330,
+      "total_tokens": 4401
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "ko",
+      "pass": "evaluate",
+      "prompt_tokens": 1302,
+      "completion_tokens": 405,
+      "total_tokens": 1707
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "ja",
+      "pass": "evaluate",
+      "prompt_tokens": 1311,
+      "completion_tokens": 503,
+      "total_tokens": 1814
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "fr",
+      "pass": "translate",
+      "prompt_tokens": 2029,
+      "completion_tokens": 2250,
+      "total_tokens": 4279
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "hi",
+      "pass": "back_translate",
+      "prompt_tokens": 2361,
+      "completion_tokens": 1657,
+      "total_tokens": 4018
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "fr",
+      "pass": "back_translate",
+      "prompt_tokens": 2281,
+      "completion_tokens": 1676,
+      "total_tokens": 3957
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "ja",
+      "pass": "polish",
+      "prompt_tokens": 3173,
+      "completion_tokens": 2352,
+      "total_tokens": 5525
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "ko",
+      "pass": "polish",
+      "prompt_tokens": 3211,
+      "completion_tokens": 2486,
+      "total_tokens": 5697
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "fr",
+      "pass": "evaluate",
+      "prompt_tokens": 1417,
+      "completion_tokens": 429,
+      "total_tokens": 1846
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "hi",
+      "pass": "evaluate",
+      "prompt_tokens": 1305,
+      "completion_tokens": 436,
+      "total_tokens": 1741
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "zh",
+      "pass": "translate",
+      "prompt_tokens": 2003,
+      "completion_tokens": 1689,
+      "total_tokens": 3692
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "es",
+      "pass": "translate",
+      "prompt_tokens": 2028,
+      "completion_tokens": 1988,
+      "total_tokens": 4016
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "fr",
+      "pass": "polish",
+      "prompt_tokens": 3030,
+      "completion_tokens": 2332,
+      "total_tokens": 5362
+    },
+    {
+      "file": "docs/platform.md",
+      "lang": "hi",
+      "pass": "polish",
+      "prompt_tokens": 3100,
+      "completion_tokens": 2327,
+      "total_tokens": 5427
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "zh",
+      "pass": "back_translate",
+      "prompt_tokens": 1723,
+      "completion_tokens": 1685,
+      "total_tokens": 3408
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "es",
+      "pass": "back_translate",
+      "prompt_tokens": 2019,
+      "completion_tokens": 1663,
+      "total_tokens": 3682
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "zh",
+      "pass": "evaluate",
+      "prompt_tokens": 1407,
+      "completion_tokens": 361,
+      "total_tokens": 1768
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "es",
+      "pass": "evaluate",
+      "prompt_tokens": 1410,
+      "completion_tokens": 627,
+      "total_tokens": 2037
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "ru",
+      "pass": "translate",
+      "prompt_tokens": 2049,
+      "completion_tokens": 2345,
+      "total_tokens": 4394
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "ar",
+      "pass": "translate",
+      "prompt_tokens": 2028,
+      "completion_tokens": 2425,
+      "total_tokens": 4453
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "zh",
+      "pass": "polish",
+      "prompt_tokens": 2374,
+      "completion_tokens": 1716,
+      "total_tokens": 4090
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "es",
+      "pass": "polish",
+      "prompt_tokens": 2965,
+      "completion_tokens": 1998,
+      "total_tokens": 4963
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "ru",
+      "pass": "back_translate",
+      "prompt_tokens": 2376,
+      "completion_tokens": 1715,
+      "total_tokens": 4091
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "ar",
+      "pass": "back_translate",
+      "prompt_tokens": 2456,
+      "completion_tokens": 1794,
+      "total_tokens": 4250
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "ru",
+      "pass": "evaluate",
+      "prompt_tokens": 1406,
+      "completion_tokens": 673,
+      "total_tokens": 2079
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "pt",
+      "pass": "translate",
+      "prompt_tokens": 2038,
+      "completion_tokens": 2082,
+      "total_tokens": 4120
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "ar",
+      "pass": "evaluate",
+      "prompt_tokens": 1416,
+      "completion_tokens": 520,
+      "total_tokens": 1936
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "pt",
+      "pass": "back_translate",
+      "prompt_tokens": 2116,
+      "completion_tokens": 1678,
+      "total_tokens": 3794
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "de",
+      "pass": "translate",
+      "prompt_tokens": 2030,
+      "completion_tokens": 2278,
+      "total_tokens": 4308
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "pt",
+      "pass": "evaluate",
+      "prompt_tokens": 1412,
+      "completion_tokens": 320,
+      "total_tokens": 1732
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "ru",
+      "pass": "polish",
+      "prompt_tokens": 3389,
+      "completion_tokens": 2437,
+      "total_tokens": 5826
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "de",
+      "pass": "back_translate",
+      "prompt_tokens": 2309,
+      "completion_tokens": 1673,
+      "total_tokens": 3982
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "ar",
+      "pass": "polish",
+      "prompt_tokens": 3295,
+      "completion_tokens": 2461,
+      "total_tokens": 5756
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "de",
+      "pass": "evaluate",
+      "prompt_tokens": 1409,
+      "completion_tokens": 500,
+      "total_tokens": 1909
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "pt",
+      "pass": "polish",
+      "prompt_tokens": 2761,
+      "completion_tokens": 2088,
+      "total_tokens": 4849
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "ja",
+      "pass": "translate",
+      "prompt_tokens": 2017,
+      "completion_tokens": 2270,
+      "total_tokens": 4287
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "ko",
+      "pass": "translate",
+      "prompt_tokens": 2028,
+      "completion_tokens": 2406,
+      "total_tokens": 4434
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "de",
+      "pass": "polish",
+      "prompt_tokens": 3130,
+      "completion_tokens": 2287,
+      "total_tokens": 5417
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "ja",
+      "pass": "back_translate",
+      "prompt_tokens": 2301,
+      "completion_tokens": 1791,
+      "total_tokens": 4092
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "hi",
+      "pass": "translate",
+      "prompt_tokens": 2012,
+      "completion_tokens": 2109,
+      "total_tokens": 4121
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "ko",
+      "pass": "back_translate",
+      "prompt_tokens": 2437,
+      "completion_tokens": 1734,
+      "total_tokens": 4171
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "ja",
+      "pass": "evaluate",
+      "prompt_tokens": 1405,
+      "completion_tokens": 470,
+      "total_tokens": 1875
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "hi",
+      "pass": "back_translate",
+      "prompt_tokens": 2140,
+      "completion_tokens": 1748,
+      "total_tokens": 3888
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "fr",
+      "pass": "translate",
+      "prompt_tokens": 1935,
+      "completion_tokens": 2134,
+      "total_tokens": 4069
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "ko",
+      "pass": "evaluate",
+      "prompt_tokens": 1399,
+      "completion_tokens": 693,
+      "total_tokens": 2092
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "hi",
+      "pass": "evaluate",
+      "prompt_tokens": 1430,
+      "completion_tokens": 474,
+      "total_tokens": 1904
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "ja",
+      "pass": "polish",
+      "prompt_tokens": 3079,
+      "completion_tokens": 2301,
+      "total_tokens": 5380
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "fr",
+      "pass": "back_translate",
+      "prompt_tokens": 2165,
+      "completion_tokens": 1535,
+      "total_tokens": 3700
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "ko",
+      "pass": "polish",
+      "prompt_tokens": 3449,
+      "completion_tokens": 2498,
+      "total_tokens": 5947
+    },
+    {
+      "file": "docs/technology.md",
+      "lang": "hi",
+      "pass": "polish",
+      "prompt_tokens": 2917,
+      "completion_tokens": 2222,
+      "total_tokens": 5139
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "es",
+      "pass": "translate",
+      "prompt_tokens": 1934,
+      "completion_tokens": 1849,
+      "total_tokens": 3783
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "fr",
+      "pass": "evaluate",
+      "prompt_tokens": 1404,
+      "completion_tokens": 469,
+      "total_tokens": 1873
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "zh",
+      "pass": "translate",
+      "prompt_tokens": 1909,
+      "completion_tokens": 1540,
+      "total_tokens": 3449
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "fr",
+      "pass": "polish",
+      "prompt_tokens": 2954,
+      "completion_tokens": 2140,
+      "total_tokens": 5094
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "ar",
+      "pass": "translate",
+      "prompt_tokens": 1934,
+      "completion_tokens": 2363,
+      "total_tokens": 4297
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "es",
+      "pass": "back_translate",
+      "prompt_tokens": 1881,
+      "completion_tokens": 1504,
+      "total_tokens": 3385
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "zh",
+      "pass": "back_translate",
+      "prompt_tokens": 1575,
+      "completion_tokens": 1555,
+      "total_tokens": 3130
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "ar",
+      "pass": "back_translate",
+      "prompt_tokens": 2393,
+      "completion_tokens": 1587,
+      "total_tokens": 3980
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "ru",
+      "pass": "translate",
+      "prompt_tokens": 1955,
+      "completion_tokens": 2067,
+      "total_tokens": 4022
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "ar",
+      "pass": "evaluate",
+      "prompt_tokens": 1406,
+      "completion_tokens": 365,
+      "total_tokens": 1771
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "es",
+      "pass": "evaluate",
+      "prompt_tokens": 1400,
+      "completion_tokens": 526,
+      "total_tokens": 1926
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "zh",
+      "pass": "evaluate",
+      "prompt_tokens": 1408,
+      "completion_tokens": 433,
+      "total_tokens": 1841
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "ru",
+      "pass": "back_translate",
+      "prompt_tokens": 2098,
+      "completion_tokens": 1584,
+      "total_tokens": 3682
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "ar",
+      "pass": "polish",
+      "prompt_tokens": 3077,
+      "completion_tokens": 2423,
+      "total_tokens": 5500
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "zh",
+      "pass": "polish",
+      "prompt_tokens": 2298,
+      "completion_tokens": 1556,
+      "total_tokens": 3854
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "es",
+      "pass": "polish",
+      "prompt_tokens": 2726,
+      "completion_tokens": 1897,
+      "total_tokens": 4623
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "ru",
+      "pass": "evaluate",
+      "prompt_tokens": 1399,
+      "completion_tokens": 498,
+      "total_tokens": 1897
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "ja",
+      "pass": "translate",
+      "prompt_tokens": 1923,
+      "completion_tokens": 2014,
+      "total_tokens": 3937
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "de",
+      "pass": "translate",
+      "prompt_tokens": 1936,
+      "completion_tokens": 2095,
+      "total_tokens": 4031
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "pt",
+      "pass": "translate",
+      "prompt_tokens": 1944,
+      "completion_tokens": 1871,
+      "total_tokens": 3815
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "ru",
+      "pass": "polish",
+      "prompt_tokens": 2936,
+      "completion_tokens": 2084,
+      "total_tokens": 5020
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "de",
+      "pass": "back_translate",
+      "prompt_tokens": 2126,
+      "completion_tokens": 1538,
+      "total_tokens": 3664
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "ja",
+      "pass": "back_translate",
+      "prompt_tokens": 2045,
+      "completion_tokens": 1563,
+      "total_tokens": 3608
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "pt",
+      "pass": "back_translate",
+      "prompt_tokens": 1905,
+      "completion_tokens": 1510,
+      "total_tokens": 3415
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "ko",
+      "pass": "translate",
+      "prompt_tokens": 1934,
+      "completion_tokens": 2131,
+      "total_tokens": 4065
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "pt",
+      "pass": "evaluate",
+      "prompt_tokens": 1405,
+      "completion_tokens": 470,
+      "total_tokens": 1875
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "ja",
+      "pass": "evaluate",
+      "prompt_tokens": 1404,
+      "completion_tokens": 504,
+      "total_tokens": 1908
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "de",
+      "pass": "evaluate",
+      "prompt_tokens": 1405,
+      "completion_tokens": 511,
+      "total_tokens": 1916
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "ko",
+      "pass": "back_translate",
+      "prompt_tokens": 2162,
+      "completion_tokens": 1562,
+      "total_tokens": 3724
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "ko",
+      "pass": "evaluate",
+      "prompt_tokens": 1403,
+      "completion_tokens": 412,
+      "total_tokens": 1815
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "pt",
+      "pass": "polish",
+      "prompt_tokens": 2700,
+      "completion_tokens": 1899,
+      "total_tokens": 4599
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "ja",
+      "pass": "polish",
+      "prompt_tokens": 2857,
+      "completion_tokens": 2057,
+      "total_tokens": 4914
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "de",
+      "pass": "polish",
+      "prompt_tokens": 2958,
+      "completion_tokens": 2105,
+      "total_tokens": 5063
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "ko",
+      "pass": "polish",
+      "prompt_tokens": 2893,
+      "completion_tokens": 2142,
+      "total_tokens": 5035
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "es",
+      "pass": "translate",
+      "prompt_tokens": 1216,
+      "completion_tokens": 966,
+      "total_tokens": 2182
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "fr",
+      "pass": "translate",
+      "prompt_tokens": 1217,
+      "completion_tokens": 1089,
+      "total_tokens": 2306
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "hi",
+      "pass": "translate",
+      "prompt_tokens": 1918,
+      "completion_tokens": 2011,
+      "total_tokens": 3929
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "es",
+      "pass": "back_translate",
+      "prompt_tokens": 997,
+      "completion_tokens": 788,
+      "total_tokens": 1785
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "fr",
+      "pass": "back_translate",
+      "prompt_tokens": 1120,
+      "completion_tokens": 794,
+      "total_tokens": 1914
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "zh",
+      "pass": "translate",
+      "prompt_tokens": 1191,
+      "completion_tokens": 837,
+      "total_tokens": 2028
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "hi",
+      "pass": "back_translate",
+      "prompt_tokens": 2042,
+      "completion_tokens": 1520,
+      "total_tokens": 3562
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "es",
+      "pass": "evaluate",
+      "prompt_tokens": 1265,
+      "completion_tokens": 372,
+      "total_tokens": 1637
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "fr",
+      "pass": "evaluate",
+      "prompt_tokens": 1266,
+      "completion_tokens": 458,
+      "total_tokens": 1724
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "zh",
+      "pass": "back_translate",
+      "prompt_tokens": 871,
+      "completion_tokens": 801,
+      "total_tokens": 1672
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "hi",
+      "pass": "evaluate",
+      "prompt_tokens": 1406,
+      "completion_tokens": 532,
+      "total_tokens": 1938
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "zh",
+      "pass": "evaluate",
+      "prompt_tokens": 1278,
+      "completion_tokens": 427,
+      "total_tokens": 1705
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "es",
+      "pass": "polish",
+      "prompt_tokens": 1688,
+      "completion_tokens": 972,
+      "total_tokens": 2660
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "fr",
+      "pass": "polish",
+      "prompt_tokens": 1898,
+      "completion_tokens": 1092,
+      "total_tokens": 2990
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "zh",
+      "pass": "polish",
+      "prompt_tokens": 1588,
+      "completion_tokens": 839,
+      "total_tokens": 2427
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "ar",
+      "pass": "translate",
+      "prompt_tokens": 1216,
+      "completion_tokens": 1154,
+      "total_tokens": 2370
+    },
+    {
+      "file": "docs/ai-coexistence.md",
+      "lang": "hi",
+      "pass": "polish",
+      "prompt_tokens": 2877,
+      "completion_tokens": 2104,
+      "total_tokens": 4981
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "ru",
+      "pass": "translate",
+      "prompt_tokens": 1237,
+      "completion_tokens": 1037,
+      "total_tokens": 2274
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "ar",
+      "pass": "back_translate",
+      "prompt_tokens": 1185,
+      "completion_tokens": 810,
+      "total_tokens": 1995
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "pt",
+      "pass": "translate",
+      "prompt_tokens": 1226,
+      "completion_tokens": 1005,
+      "total_tokens": 2231
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "de",
+      "pass": "translate",
+      "prompt_tokens": 1218,
+      "completion_tokens": 1070,
+      "total_tokens": 2288
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "ru",
+      "pass": "back_translate",
+      "prompt_tokens": 1068,
+      "completion_tokens": 834,
+      "total_tokens": 1902
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "ar",
+      "pass": "evaluate",
+      "prompt_tokens": 1269,
+      "completion_tokens": 408,
+      "total_tokens": 1677
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "pt",
+      "pass": "back_translate",
+      "prompt_tokens": 1040,
+      "completion_tokens": 786,
+      "total_tokens": 1826
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "de",
+      "pass": "back_translate",
+      "prompt_tokens": 1101,
+      "completion_tokens": 807,
+      "total_tokens": 1908
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "ru",
+      "pass": "evaluate",
+      "prompt_tokens": 1274,
+      "completion_tokens": 613,
+      "total_tokens": 1887
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "ar",
+      "pass": "polish",
+      "prompt_tokens": 1912,
+      "completion_tokens": 1170,
+      "total_tokens": 3082
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "de",
+      "pass": "evaluate",
+      "prompt_tokens": 1272,
+      "completion_tokens": 547,
+      "total_tokens": 1819
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "pt",
+      "pass": "evaluate",
+      "prompt_tokens": 1271,
+      "completion_tokens": 458,
+      "total_tokens": 1729
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "ja",
+      "pass": "translate",
+      "prompt_tokens": 1205,
+      "completion_tokens": 1033,
+      "total_tokens": 2238
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "pt",
+      "pass": "polish",
+      "prompt_tokens": 1823,
+      "completion_tokens": 1007,
+      "total_tokens": 2830
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "ru",
+      "pass": "polish",
+      "prompt_tokens": 2021,
+      "completion_tokens": 1044,
+      "total_tokens": 3065
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "de",
+      "pass": "polish",
+      "prompt_tokens": 1969,
+      "completion_tokens": 1069,
+      "total_tokens": 3038
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "ja",
+      "pass": "back_translate",
+      "prompt_tokens": 1064,
+      "completion_tokens": 791,
+      "total_tokens": 1855
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "hi",
+      "pass": "translate",
+      "prompt_tokens": 1200,
+      "completion_tokens": 1062,
+      "total_tokens": 2262
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "ja",
+      "pass": "evaluate",
+      "prompt_tokens": 1257,
+      "completion_tokens": 463,
+      "total_tokens": 1720
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "ko",
+      "pass": "translate",
+      "prompt_tokens": 1216,
+      "completion_tokens": 1122,
+      "total_tokens": 2338
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "fr",
+      "pass": "translate",
+      "prompt_tokens": 2248,
+      "completion_tokens": 2432,
+      "total_tokens": 4680
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "hi",
+      "pass": "back_translate",
+      "prompt_tokens": 1093,
+      "completion_tokens": 775,
+      "total_tokens": 1868
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "ko",
+      "pass": "back_translate",
+      "prompt_tokens": 1153,
+      "completion_tokens": 832,
+      "total_tokens": 1985
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "ja",
+      "pass": "polish",
+      "prompt_tokens": 1835,
+      "completion_tokens": 1086,
+      "total_tokens": 2921
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "ko",
+      "pass": "evaluate",
+      "prompt_tokens": 1266,
+      "completion_tokens": 428,
+      "total_tokens": 1694
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "fr",
+      "pass": "back_translate",
+      "prompt_tokens": 2463,
+      "completion_tokens": 1855,
+      "total_tokens": 4318
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "fr",
+      "pass": "evaluate",
+      "prompt_tokens": 1436,
+      "completion_tokens": 594,
+      "total_tokens": 2030
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "ko",
+      "pass": "polish",
+      "prompt_tokens": 1900,
+      "completion_tokens": 1126,
+      "total_tokens": 3026
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "hi",
+      "pass": "evaluate",
+      "prompt_tokens": 1264,
+      "completion_tokens": 576,
+      "total_tokens": 1840
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "es",
+      "pass": "translate",
+      "prompt_tokens": 2247,
+      "completion_tokens": 2283,
+      "total_tokens": 4530
+    },
+    {
+      "file": "docs/falsifiability.md",
+      "lang": "hi",
+      "pass": "polish",
+      "prompt_tokens": 1972,
+      "completion_tokens": 1080,
+      "total_tokens": 3052
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "fr",
+      "pass": "polish",
+      "prompt_tokens": 3377,
+      "completion_tokens": 2462,
+      "total_tokens": 5839
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "zh",
+      "pass": "translate",
+      "prompt_tokens": 2222,
+      "completion_tokens": 1961,
+      "total_tokens": 4183
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "es",
+      "pass": "back_translate",
+      "prompt_tokens": 2314,
+      "completion_tokens": 1877,
+      "total_tokens": 4191
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "zh",
+      "pass": "back_translate",
+      "prompt_tokens": 1995,
+      "completion_tokens": 1865,
+      "total_tokens": 3860
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "es",
+      "pass": "evaluate",
+      "prompt_tokens": 1445,
+      "completion_tokens": 458,
+      "total_tokens": 1903
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "ar",
+      "pass": "translate",
+      "prompt_tokens": 2247,
+      "completion_tokens": 2635,
+      "total_tokens": 4882
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "ru",
+      "pass": "translate",
+      "prompt_tokens": 2268,
+      "completion_tokens": 2507,
+      "total_tokens": 4775
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "zh",
+      "pass": "evaluate",
+      "prompt_tokens": 1445,
+      "completion_tokens": 488,
+      "total_tokens": 1933
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "ru",
+      "pass": "back_translate",
+      "prompt_tokens": 2538,
+      "completion_tokens": 1930,
+      "total_tokens": 4468
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "es",
+      "pass": "polish",
+      "prompt_tokens": 3092,
+      "completion_tokens": 2313,
+      "total_tokens": 5405
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "zh",
+      "pass": "polish",
+      "prompt_tokens": 2773,
+      "completion_tokens": 1967,
+      "total_tokens": 4740
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "ar",
+      "pass": "back_translate",
+      "prompt_tokens": 2666,
+      "completion_tokens": 1899,
+      "total_tokens": 4565
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "ru",
+      "pass": "evaluate",
+      "prompt_tokens": 1425,
+      "completion_tokens": 652,
+      "total_tokens": 2077
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "ar",
+      "pass": "evaluate",
+      "prompt_tokens": 1455,
+      "completion_tokens": 610,
+      "total_tokens": 2065
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "pt",
+      "pass": "translate",
+      "prompt_tokens": 2257,
+      "completion_tokens": 2331,
+      "total_tokens": 4588
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "de",
+      "pass": "translate",
+      "prompt_tokens": 2249,
+      "completion_tokens": 2547,
+      "total_tokens": 4796
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "ar",
+      "pass": "polish",
+      "prompt_tokens": 3595,
+      "completion_tokens": 2660,
+      "total_tokens": 6255
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "ru",
+      "pass": "polish",
+      "prompt_tokens": 3530,
+      "completion_tokens": 2512,
+      "total_tokens": 6042
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "pt",
+      "pass": "back_translate",
+      "prompt_tokens": 2365,
+      "completion_tokens": 1832,
+      "total_tokens": 4197
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "de",
+      "pass": "back_translate",
+      "prompt_tokens": 2578,
+      "completion_tokens": 1903,
+      "total_tokens": 4481
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "pt",
+      "pass": "evaluate",
+      "prompt_tokens": 1440,
+      "completion_tokens": 398,
+      "total_tokens": 1838
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "de",
+      "pass": "evaluate",
+      "prompt_tokens": 1438,
+      "completion_tokens": 474,
+      "total_tokens": 1912
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "ko",
+      "pass": "translate",
+      "prompt_tokens": 2247,
+      "completion_tokens": 2772,
+      "total_tokens": 5019
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "pt",
+      "pass": "polish",
+      "prompt_tokens": 3088,
+      "completion_tokens": 2334,
+      "total_tokens": 5422
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "ja",
+      "pass": "translate",
+      "prompt_tokens": 2236,
+      "completion_tokens": 2597,
+      "total_tokens": 4833
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "de",
+      "pass": "polish",
+      "prompt_tokens": 3373,
+      "completion_tokens": 2588,
+      "total_tokens": 5961
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "ko",
+      "pass": "back_translate",
+      "prompt_tokens": 2803,
+      "completion_tokens": 2027,
+      "total_tokens": 4830
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "ja",
+      "pass": "back_translate",
+      "prompt_tokens": 2628,
+      "completion_tokens": 1985,
+      "total_tokens": 4613
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "hi",
+      "pass": "translate",
+      "prompt_tokens": 2231,
+      "completion_tokens": 2484,
+      "total_tokens": 4715
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "ja",
+      "pass": "evaluate",
+      "prompt_tokens": 1433,
+      "completion_tokens": 507,
+      "total_tokens": 1940
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "fr",
+      "pass": "translate",
+      "prompt_tokens": 2641,
+      "completion_tokens": 2911,
+      "total_tokens": 5552
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "ko",
+      "pass": "evaluate",
+      "prompt_tokens": 1416,
+      "completion_tokens": 562,
+      "total_tokens": 1978
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "ja",
+      "pass": "polish",
+      "prompt_tokens": 3443,
+      "completion_tokens": 2598,
+      "total_tokens": 6041
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "hi",
+      "pass": "back_translate",
+      "prompt_tokens": 2515,
+      "completion_tokens": 1867,
+      "total_tokens": 4382
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "ko",
+      "pass": "polish",
+      "prompt_tokens": 3684,
+      "completion_tokens": 2793,
+      "total_tokens": 6477
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "fr",
+      "pass": "back_translate",
+      "prompt_tokens": 2942,
+      "completion_tokens": 2304,
+      "total_tokens": 5246
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "hi",
+      "pass": "evaluate",
+      "prompt_tokens": 1442,
+      "completion_tokens": 397,
+      "total_tokens": 1839
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "fr",
+      "pass": "evaluate",
+      "prompt_tokens": 1433,
+      "completion_tokens": 468,
+      "total_tokens": 1901
+    },
+    {
+      "file": "docs/governance.md",
+      "lang": "hi",
+      "pass": "polish",
+      "prompt_tokens": 3215,
+      "completion_tokens": 2506,
+      "total_tokens": 5721
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "es",
+      "pass": "translate",
+      "prompt_tokens": 2640,
+      "completion_tokens": 2813,
+      "total_tokens": 5453
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "fr",
+      "pass": "polish",
+      "prompt_tokens": 3730,
+      "completion_tokens": 2973,
+      "total_tokens": 6703
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "ar",
+      "pass": "translate",
+      "prompt_tokens": 2640,
+      "completion_tokens": 3113,
+      "total_tokens": 5753
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "es",
+      "pass": "back_translate",
+      "prompt_tokens": 2843,
+      "completion_tokens": 2305,
+      "total_tokens": 5148
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "ru",
+      "pass": "translate",
+      "prompt_tokens": 2661,
+      "completion_tokens": 3027,
+      "total_tokens": 5688
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "es",
+      "pass": "evaluate",
+      "prompt_tokens": 1426,
+      "completion_tokens": 450,
+      "total_tokens": 1876
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "ar",
+      "pass": "back_translate",
+      "prompt_tokens": 3144,
+      "completion_tokens": 2336,
+      "total_tokens": 5480
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "ru",
+      "pass": "back_translate",
+      "prompt_tokens": 3058,
+      "completion_tokens": 2320,
+      "total_tokens": 5378
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "pt",
+      "pass": "translate",
+      "prompt_tokens": 2650,
+      "completion_tokens": 2716,
+      "total_tokens": 5366
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "ar",
+      "pass": "evaluate",
+      "prompt_tokens": 1422,
+      "completion_tokens": 546,
+      "total_tokens": 1968
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "ru",
+      "pass": "evaluate",
+      "prompt_tokens": 1426,
+      "completion_tokens": 556,
+      "total_tokens": 1982
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "es",
+      "pass": "polish",
+      "prompt_tokens": 3612,
+      "completion_tokens": 2807,
+      "total_tokens": 6419
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "pt",
+      "pass": "back_translate",
+      "prompt_tokens": 2750,
+      "completion_tokens": 2298,
+      "total_tokens": 5048
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "ar",
+      "pass": "polish",
+      "prompt_tokens": 4009,
+      "completion_tokens": 3140,
+      "total_tokens": 7149
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "ru",
+      "pass": "polish",
+      "prompt_tokens": 3954,
+      "completion_tokens": 3030,
+      "total_tokens": 6984
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "de",
+      "pass": "translate",
+      "prompt_tokens": 2642,
+      "completion_tokens": 2989,
+      "total_tokens": 5631
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "pt",
+      "pass": "evaluate",
+      "prompt_tokens": 1429,
+      "completion_tokens": 582,
+      "total_tokens": 2011
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "ja",
+      "pass": "translate",
+      "prompt_tokens": 2629,
+      "completion_tokens": 2963,
+      "total_tokens": 5592
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "de",
+      "pass": "back_translate",
+      "prompt_tokens": 3021,
+      "completion_tokens": 2306,
+      "total_tokens": 5327
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "pt",
+      "pass": "polish",
+      "prompt_tokens": 3657,
+      "completion_tokens": 2707,
+      "total_tokens": 6364
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "de",
+      "pass": "evaluate",
+      "prompt_tokens": 1422,
+      "completion_tokens": 441,
+      "total_tokens": 1863
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "ko",
+      "pass": "translate",
+      "prompt_tokens": 2640,
+      "completion_tokens": 2924,
+      "total_tokens": 5564
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "ja",
+      "pass": "back_translate",
+      "prompt_tokens": 2994,
+      "completion_tokens": 2338,
+      "total_tokens": 5332
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "ko",
+      "pass": "back_translate",
+      "prompt_tokens": 2955,
+      "completion_tokens": 2307,
+      "total_tokens": 5262
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "de",
+      "pass": "polish",
+      "prompt_tokens": 3783,
+      "completion_tokens": 3020,
+      "total_tokens": 6803
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "ja",
+      "pass": "evaluate",
+      "prompt_tokens": 1427,
+      "completion_tokens": 580,
+      "total_tokens": 2007
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "hi",
+      "pass": "translate",
+      "prompt_tokens": 2624,
+      "completion_tokens": 2783,
+      "total_tokens": 5407
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "ko",
+      "pass": "evaluate",
+      "prompt_tokens": 1427,
+      "completion_tokens": 465,
+      "total_tokens": 1892
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "fr",
+      "pass": "translate",
+      "prompt_tokens": 1420,
+      "completion_tokens": 1314,
+      "total_tokens": 2734
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "ja",
+      "pass": "polish",
+      "prompt_tokens": 3882,
+      "completion_tokens": 2995,
+      "total_tokens": 6877
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "hi",
+      "pass": "back_translate",
+      "prompt_tokens": 2814,
+      "completion_tokens": 2272,
+      "total_tokens": 5086
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "fr",
+      "pass": "back_translate",
+      "prompt_tokens": 1345,
+      "completion_tokens": 992,
+      "total_tokens": 2337
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "ko",
+      "pass": "polish",
+      "prompt_tokens": 3740,
+      "completion_tokens": 2925,
+      "total_tokens": 6665
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "hi",
+      "pass": "evaluate",
+      "prompt_tokens": 1427,
+      "completion_tokens": 530,
+      "total_tokens": 1957
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "fr",
+      "pass": "evaluate",
+      "prompt_tokens": 1406,
+      "completion_tokens": 562,
+      "total_tokens": 1968
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "zh",
+      "pass": "translate",
+      "prompt_tokens": 1394,
+      "completion_tokens": 990,
+      "total_tokens": 2384
+    },
+    {
+      "file": "docs/influences.md",
+      "lang": "hi",
+      "pass": "polish",
+      "prompt_tokens": 3647,
+      "completion_tokens": 2847,
+      "total_tokens": 6494
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "zh",
+      "pass": "back_translate",
+      "prompt_tokens": 1024,
+      "completion_tokens": 983,
+      "total_tokens": 2007
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "es",
+      "pass": "translate",
+      "prompt_tokens": 1419,
+      "completion_tokens": 1117,
+      "total_tokens": 2536
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "fr",
+      "pass": "polish",
+      "prompt_tokens": 2227,
+      "completion_tokens": 1326,
+      "total_tokens": 3553
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "zh",
+      "pass": "evaluate",
+      "prompt_tokens": 1421,
+      "completion_tokens": 569,
+      "total_tokens": 1990
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "ar",
+      "pass": "translate",
+      "prompt_tokens": 1419,
+      "completion_tokens": 1353,
+      "total_tokens": 2772
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "es",
+      "pass": "back_translate",
+      "prompt_tokens": 1148,
+      "completion_tokens": 980,
+      "total_tokens": 2128
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "ru",
+      "pass": "translate",
+      "prompt_tokens": 1440,
+      "completion_tokens": 1252,
+      "total_tokens": 2692
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "zh",
+      "pass": "polish",
+      "prompt_tokens": 1883,
+      "completion_tokens": 992,
+      "total_tokens": 2875
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "ar",
+      "pass": "back_translate",
+      "prompt_tokens": 1385,
+      "completion_tokens": 998,
+      "total_tokens": 2383
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "es",
+      "pass": "evaluate",
+      "prompt_tokens": 1399,
+      "completion_tokens": 498,
+      "total_tokens": 1897
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "ru",
+      "pass": "back_translate",
+      "prompt_tokens": 1283,
+      "completion_tokens": 998,
+      "total_tokens": 2281
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "pt",
+      "pass": "translate",
+      "prompt_tokens": 1429,
+      "completion_tokens": 1151,
+      "total_tokens": 2580
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "ar",
+      "pass": "evaluate",
+      "prompt_tokens": 1407,
+      "completion_tokens": 546,
+      "total_tokens": 1953
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "es",
+      "pass": "polish",
+      "prompt_tokens": 1965,
+      "completion_tokens": 1112,
+      "total_tokens": 3077
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "pt",
+      "pass": "back_translate",
+      "prompt_tokens": 1185,
+      "completion_tokens": 1004,
+      "total_tokens": 2189
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "ru",
+      "pass": "evaluate",
+      "prompt_tokens": 1411,
+      "completion_tokens": 413,
+      "total_tokens": 1824
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "ar",
+      "pass": "polish",
+      "prompt_tokens": 2250,
+      "completion_tokens": 1387,
+      "total_tokens": 3637
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "pt",
+      "pass": "evaluate",
+      "prompt_tokens": 1428,
+      "completion_tokens": 330,
+      "total_tokens": 1758
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "de",
+      "pass": "translate",
+      "prompt_tokens": 1421,
+      "completion_tokens": 1280,
+      "total_tokens": 2701
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "ru",
+      "pass": "polish",
+      "prompt_tokens": 2036,
+      "completion_tokens": 1267,
+      "total_tokens": 3303
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "ja",
+      "pass": "translate",
+      "prompt_tokens": 1408,
+      "completion_tokens": 1187,
+      "total_tokens": 2595
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "de",
+      "pass": "back_translate",
+      "prompt_tokens": 1311,
+      "completion_tokens": 1004,
+      "total_tokens": 2315
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "pt",
+      "pass": "polish",
+      "prompt_tokens": 1840,
+      "completion_tokens": 1157,
+      "total_tokens": 2997
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "ja",
+      "pass": "back_translate",
+      "prompt_tokens": 1218,
+      "completion_tokens": 1002,
+      "total_tokens": 2220
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "de",
+      "pass": "evaluate",
+      "prompt_tokens": 1418,
+      "completion_tokens": 500,
+      "total_tokens": 1918
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "ko",
+      "pass": "translate",
+      "prompt_tokens": 1419,
+      "completion_tokens": 1355,
+      "total_tokens": 2774
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "ja",
+      "pass": "evaluate",
+      "prompt_tokens": 1400,
+      "completion_tokens": 572,
+      "total_tokens": 1972
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "hi",
+      "pass": "translate",
+      "prompt_tokens": 1403,
+      "completion_tokens": 1291,
+      "total_tokens": 2694
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "de",
+      "pass": "polish",
+      "prompt_tokens": 2132,
+      "completion_tokens": 1285,
+      "total_tokens": 3417
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "ko",
+      "pass": "back_translate",
+      "prompt_tokens": 1386,
+      "completion_tokens": 989,
+      "total_tokens": 2375
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "ja",
+      "pass": "polish",
+      "prompt_tokens": 2098,
+      "completion_tokens": 1223,
+      "total_tokens": 3321
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "ko",
+      "pass": "evaluate",
+      "prompt_tokens": 1394,
+      "completion_tokens": 517,
+      "total_tokens": 1911
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "hi",
+      "pass": "back_translate",
+      "prompt_tokens": 1323,
+      "completion_tokens": 978,
+      "total_tokens": 2301
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "fr",
+      "pass": "translate",
+      "prompt_tokens": 1113,
+      "completion_tokens": 933,
+      "total_tokens": 2046
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "es",
+      "pass": "translate",
+      "prompt_tokens": 1112,
+      "completion_tokens": 803,
+      "total_tokens": 1915
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "fr",
+      "pass": "back_translate",
+      "prompt_tokens": 964,
+      "completion_tokens": 684,
+      "total_tokens": 1648
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "ko",
+      "pass": "polish",
+      "prompt_tokens": 2222,
+      "completion_tokens": 1365,
+      "total_tokens": 3587
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "es",
+      "pass": "back_translate",
+      "prompt_tokens": 834,
+      "completion_tokens": 695,
+      "total_tokens": 1529
+    },
+    {
+      "file": "manifesto/letter.md",
+      "lang": "hi",
+      "pass": "evaluate",
+      "prompt_tokens": 1413,
+      "completion_tokens": 5,
+      "total_tokens": 1418
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "fr",
+      "pass": "evaluate",
+      "prompt_tokens": 1445,
+      "completion_tokens": 392,
+      "total_tokens": 1837
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "zh",
+      "pass": "translate",
+      "prompt_tokens": 1087,
+      "completion_tokens": 694,
+      "total_tokens": 1781
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "es",
+      "pass": "evaluate",
+      "prompt_tokens": 1450,
+      "completion_tokens": 408,
+      "total_tokens": 1858
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "ar",
+      "pass": "translate",
+      "prompt_tokens": 1112,
+      "completion_tokens": 961,
+      "total_tokens": 2073
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "zh",
+      "pass": "back_translate",
+      "prompt_tokens": 728,
+      "completion_tokens": 700,
+      "total_tokens": 1428
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "es",
+      "pass": "polish",
+      "prompt_tokens": 1561,
+      "completion_tokens": 804,
+      "total_tokens": 2365
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "fr",
+      "pass": "polish",
+      "prompt_tokens": 1676,
+      "completion_tokens": 972,
+      "total_tokens": 2648
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "ar",
+      "pass": "back_translate",
+      "prompt_tokens": 992,
+      "completion_tokens": 722,
+      "total_tokens": 1714
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "zh",
+      "pass": "evaluate",
+      "prompt_tokens": 1455,
+      "completion_tokens": 479,
+      "total_tokens": 1934
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "ar",
+      "pass": "evaluate",
+      "prompt_tokens": 1460,
+      "completion_tokens": 478,
+      "total_tokens": 1938
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "pt",
+      "pass": "translate",
+      "prompt_tokens": 1122,
+      "completion_tokens": 838,
+      "total_tokens": 1960
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "ru",
+      "pass": "translate",
+      "prompt_tokens": 1133,
+      "completion_tokens": 918,
+      "total_tokens": 2051
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "zh",
+      "pass": "polish",
+      "prompt_tokens": 1497,
+      "completion_tokens": 703,
+      "total_tokens": 2200
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "pt",
+      "pass": "back_translate",
+      "prompt_tokens": 872,
+      "completion_tokens": 692,
+      "total_tokens": 1564
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "ar",
+      "pass": "polish",
+      "prompt_tokens": 1789,
+      "completion_tokens": 959,
+      "total_tokens": 2748
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "ru",
+      "pass": "back_translate",
+      "prompt_tokens": 949,
+      "completion_tokens": 720,
+      "total_tokens": 1669
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "de",
+      "pass": "translate",
+      "prompt_tokens": 1114,
+      "completion_tokens": 892,
+      "total_tokens": 2006
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "pt",
+      "pass": "evaluate",
+      "prompt_tokens": 1452,
+      "completion_tokens": 428,
+      "total_tokens": 1880
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "ru",
+      "pass": "evaluate",
+      "prompt_tokens": 1454,
+      "completion_tokens": 544,
+      "total_tokens": 1998
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "de",
+      "pass": "back_translate",
+      "prompt_tokens": 923,
+      "completion_tokens": 691,
+      "total_tokens": 1614
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "ja",
+      "pass": "translate",
+      "prompt_tokens": 1101,
+      "completion_tokens": 863,
+      "total_tokens": 1964
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "pt",
+      "pass": "polish",
+      "prompt_tokens": 1625,
+      "completion_tokens": 848,
+      "total_tokens": 2473
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "ru",
+      "pass": "polish",
+      "prompt_tokens": 1833,
+      "completion_tokens": 972,
+      "total_tokens": 2805
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "de",
+      "pass": "evaluate",
+      "prompt_tokens": 1444,
+      "completion_tokens": 495,
+      "total_tokens": 1939
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "ja",
+      "pass": "back_translate",
+      "prompt_tokens": 894,
+      "completion_tokens": 697,
+      "total_tokens": 1591
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "ko",
+      "pass": "translate",
+      "prompt_tokens": 1112,
+      "completion_tokens": 956,
+      "total_tokens": 2068
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "ja",
+      "pass": "evaluate",
+      "prompt_tokens": 1459,
+      "completion_tokens": 395,
+      "total_tokens": 1854
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "hi",
+      "pass": "translate",
+      "prompt_tokens": 1096,
+      "completion_tokens": 919,
+      "total_tokens": 2015
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "ko",
+      "pass": "back_translate",
+      "prompt_tokens": 987,
+      "completion_tokens": 730,
+      "total_tokens": 1717
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "de",
+      "pass": "polish",
+      "prompt_tokens": 1739,
+      "completion_tokens": 905,
+      "total_tokens": 2644
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "hi",
+      "pass": "back_translate",
+      "prompt_tokens": 950,
+      "completion_tokens": 686,
+      "total_tokens": 1636
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "ko",
+      "pass": "evaluate",
+      "prompt_tokens": 1458,
+      "completion_tokens": 523,
+      "total_tokens": 1981
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "ja",
+      "pass": "polish",
+      "prompt_tokens": 1597,
+      "completion_tokens": 862,
+      "total_tokens": 2459
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "hi",
+      "pass": "evaluate",
+      "prompt_tokens": 1447,
+      "completion_tokens": 536,
+      "total_tokens": 1983
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "ko",
+      "pass": "polish",
+      "prompt_tokens": 1829,
+      "completion_tokens": 975,
+      "total_tokens": 2804
+    },
+    {
+      "file": "manifesto/one-pager.md",
+      "lang": "hi",
+      "pass": "polish",
+      "prompt_tokens": 1789,
+      "completion_tokens": 925,
+      "total_tokens": 2714
+    }
+  ],
+  "totals": {
+    "prompt_tokens": 966322,
+    "completion_tokens": 690776,
+    "total_tokens": 1657098,
+    "api_calls": 515
+  }
+}
