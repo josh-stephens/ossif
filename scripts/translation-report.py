@@ -19,6 +19,7 @@ LOGS_DIR = REPO_ROOT / "scripts" / "logs"
 
 # Gemini 3 Flash pricing (per 1M tokens) — update when pricing changes
 PRICING = {
+    "gemini-3.7-flash": {"prompt": 0.75, "completion": 3.75},
     "gemini-3-flash-preview": {"prompt": 0.10, "completion": 0.40},
     "default": {"prompt": 0.10, "completion": 0.40},
 }

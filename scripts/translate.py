@@ -71,8 +71,8 @@ SOURCE_FILES = [
     "manifesto/one-pager.md",
 ]
 
-MODEL = "gemini-3-flash-preview"
-BACK_TRANSLATE_MODEL = "gemini-3-flash-preview"
+MODEL = "gemini-3.7-flash"
+BACK_TRANSLATE_MODEL = "gemini-3.7-flash"
 
 # Divergence threshold for back-translation (0-1, lower = stricter)
 DIVERGENCE_THRESHOLD = 0.3
